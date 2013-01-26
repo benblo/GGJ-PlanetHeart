@@ -366,7 +366,7 @@ public class WorldGrid : MonoBehaviour
 		case 43:
 			return 11;
 		default:
-			Debug.Log(sum);
+			//Debug.Log(sum);
 			return 13; // error
 		}
 	}
@@ -442,22 +442,8 @@ public class WorldGrid : MonoBehaviour
 	
 	void OnDrawGizmos()
 	{
-        if (drawGarry)
-        {
-            DrawDebugGarry();
-            return;
-        }
-
 		if (!drawGizmos)
 			return;
-
-        foreach (var glob in globules)
-        {
-            glob.DrawGizmo();
-        }
-		
-		
-
 		
 		if (drawGrid)
 		{
@@ -470,8 +456,7 @@ public class WorldGrid : MonoBehaviour
 			{
 				Debug.DrawLine(new Vector2(0, y), new Vector2(width, y));
 			}
-		}
-		
+		}		
 		
 		if (drawCells)
 		{
@@ -485,8 +470,7 @@ public class WorldGrid : MonoBehaviour
 					Gizmos.DrawCube(new Vector2(x, y) + new Vector2(0.5f, 0.5f), Vector2.one);
 				}
 			}
-		}
-		
+		}		
 		
 		if (debugCurCell)
 		{
@@ -505,9 +489,7 @@ public class WorldGrid : MonoBehaviour
 				//bool isClicked = Input.GetMouseButton(0);
 				//Gizmos.color = isClicked ? Color.red : Color.green;
 				//Gizmos.DrawCube(new Vector2(x, y) + new Vector2(0.5f, 0.5f), Vector2.one);
-				
-				
-				
+								
 				Cell cell = getCell(x, y);
 				int ic = x + y * width;
 				
@@ -545,6 +527,12 @@ public class WorldGrid : MonoBehaviour
 				debugText = "";
 			}
 		}
+        
+        if (drawGarry)
+        {
+            DrawDebugGarry();
+            return;
+        }
 	}
 
     private void DrawDebugGarry()

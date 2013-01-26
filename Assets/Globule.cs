@@ -127,8 +127,8 @@ public class Globule
 
     private void ChangeMudToGrass(int grassTypeIndex, Cell cell)
     {
-        cell.type = worldGrid.cellTypes[grassTypeIndex];
-        cell.typeIndex = grassTypeIndex;
+        //cell.type = worldGrid.cellTypes[grassTypeIndex];
+        //cell.typeIndex = grassTypeIndex;
 
         type = RessourceType.None;
     }

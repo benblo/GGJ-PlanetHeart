@@ -28,27 +28,6 @@ public class CellFlow : MonoBehaviour
 
     void Start()
     {
-        /*for (int x = 0; x < worldGrid.width; x++)
-        {
-            for (int y = 0; y < worldGrid.height; y++)
-            {
-                Cell cell = worldGrid.getCell(x, y);
-                cell.flow = CellFlowDirection.None;
-
-                int mudTypeIndex = worldGrid.getCellTypeIndexByName("Mud");
-                int airTypeIndex = worldGrid.getCellTypeIndexByName("Air");
-                if (y == 34)
-                {
-                    cell.type = worldGrid.cellTypes[mudTypeIndex];
-                    cell.typeIndex = mudTypeIndex;
-                }
-                if (y > 34)
-                {
-                    cell.type = worldGrid.cellTypes[airTypeIndex];
-                    cell.typeIndex = airTypeIndex;
-                }
-            }
-        }*/
     }
 
     void Update()
@@ -61,7 +40,7 @@ public class CellFlow : MonoBehaviour
             if (!isDrawing && Input.GetMouseButtonDown(0))
             {
                 Cell startCell = worldGrid.getCell(currentCellPos.X, currentCellPos.Y);
-                if (startCell.isArtere || startCell.flow != CellFlowDirection.None)
+               // if (startCell.isArtere || startCell.flow != CellFlowDirection.None)
                 {
                     //Start digging
                     isDrawing = true;
@@ -86,8 +65,11 @@ public class CellFlow : MonoBehaviour
                     Debug.Log("cell.type.canDig: " + cell.type.canDig);
 
                     //Dig one cell
-                    if ((cell.type.canDig || cell.isArtere ||  cell.flow != CellFlowDirection.None) && UpdateFlow(lastCellPos, currentCellPos))
+                    if ((cell.type.canDig || cell.isArtere /*|| cell.flow != CellFlowDirection.None*/) && UpdateFlow(lastCellPos, currentCellPos))
+                    {
                         lastCellPos = currentCellPos;
+                        Debug.Log("Dig!");
+                    }
 
                     if (cell.flow != CellFlowDirection.None)
                         isDrawing = false;
@@ -111,29 +93,25 @@ public class CellFlow : MonoBehaviour
 
         if (from.X == to.X && lastCellPos.Y == to.Y - 1 && !EnumHelper.Has(toCell.flow, CellFlowDirection.Down))
         {
-            toCell.typeIndex = bloodTypeIndex;
-            toCell.type = worldGrid.cellTypes[bloodTypeIndex];
+            toCell.isArtere = true;
             fromCell.flow = fromCell.flow | CellFlowDirection.Up;
             return true;
         }
         else if (from.X == to.X && from.Y == to.Y + 1 && !EnumHelper.Has(toCell.flow, CellFlowDirection.Up))
         {
-            toCell.typeIndex = bloodTypeIndex;
-            toCell.type = worldGrid.cellTypes[bloodTypeIndex];
+            toCell.isArtere = true;
             fromCell.flow = fromCell.flow | CellFlowDirection.Down;
             return true;
         }
         else if (from.X == to.X + 1 && from.Y == to.Y && !EnumHelper.Has(toCell.flow, CellFlowDirection.Right))
         {
-            toCell.typeIndex = bloodTypeIndex;
-            toCell.type = worldGrid.cellTypes[bloodTypeIndex];
+            toCell.isArtere = true;
             fromCell.flow = fromCell.flow | CellFlowDirection.Left;
             return true;
         }
         else if (from.X == to.X - 1 && from.Y == to.Y && !EnumHelper.Has(toCell.flow, CellFlowDirection.Left))
         {
-            toCell.typeIndex = bloodTypeIndex;
-            toCell.type = worldGrid.cellTypes[bloodTypeIndex];
+            toCell.isArtere = true;
             fromCell.flow = fromCell.flow | CellFlowDirection.Right;
             return true;
         }

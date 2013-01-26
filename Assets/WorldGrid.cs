@@ -24,7 +24,8 @@ public class Cell
 	internal float amount = 1;
 	internal float lastSpawnTime;
 
-    public CellFlowDirection flow;
+    internal bool isArtere = false;
+    internal CellFlowDirection flow;
 	
 	internal Color color
 	{
@@ -40,18 +41,11 @@ public class CellType
 	public Color color = Color.white;
 	public int atlasY;
 
-    public bool isArtere = false;
 	public bool isResource;
     public RessourceType ressourceType;
 
-	public float spawnRate = 1;
-	public float spawnAmount = 0.1f;
-	
 	public bool canDig;
-	public bool canDiffuse;
-	public bool canGrow;
-	public float growSpeed = 0.1f;
-	public bool isEmpty;
+	public int digLevel;
 }
 
 [ExecuteInEditMode]
@@ -381,61 +375,14 @@ public class WorldGrid : MonoBehaviour
 	{
 		if (editMode)
 			updateEditor();
-		else
-			updateDig();
 		
 		updateMainUVs();
 		updateFrontUVs();
 		
-		updateParticles();
+		updateGlobules();
 	}
 	
-	bool isEmpty( int x, int y )
-	{
-		return isInBounds(x, y) && getCell(x, y).type.isEmpty;
-	}
-	
-	void updateDig()
-	{/*
-        Vector2 mousePos = getMousePos();
-        bool isClicked = Input.GetMouseButton(0);
-
-        float dt = Time.deltaTime;
-        for (int x = 1; x < width - 1; x++)
-        {
-            for (int y = 0; y < height - 1; y++)
-            {
-                int ic = x + y * width;
-                Cell cell = grid[ic];
-
-                if (cell.type.canGrow)
-                {
-                    if (cell.amount < 1)
-                    {
-                        cell.amount += cell.type.growSpeed * dt;
-                    }
-                    else
-                    {
-                        diffuse(cell, getCell(x, y + 1));
-                        diffuse(cell, getCell(x - 1, y));
-                        diffuse(cell, getCell(x + 1, y));
-                    }
-                }
-            }
-        }
-	*/}
-
-	void diffuse( Cell from, Cell to )
-	{
-		if (to.type.canDiffuse)
-		{
-			to.typeIndex = from.typeIndex;
-			to.type = from.type;
-			to.amount = 0;
-		}
-	}
-	
-	void updateParticles()
+	void updateGlobules()
 	{
         if (Input.GetMouseButtonDown(1))
         {
@@ -443,7 +390,7 @@ public class WorldGrid : MonoBehaviour
             if (isInBounds(mousePos))
             {
                 Cell cell = getCell(mousePos);
-                if (cell.type.isEmpty)
+                if (cell.isArtere)
                 {
                     Globule globule = new Globule(this, new Vector2((int)mousePos.x, (int)mousePos.y));
                     globule.type = RessourceType.None;
@@ -460,16 +407,7 @@ public class WorldGrid : MonoBehaviour
         }
 	}
 	
-	void checkAvailable( Vector2 curCell, Vector2 nextCell, List<Vector2> availableCells )
-	{
-		if ( nextCell != curCell &&
-			 isInBounds(nextCell) &&
-			 getCell(nextCell).type.isEmpty )
-		{
-			availableCells.Add(nextCell);
-		}
-	}
-	
+
 	// EDITOR CRAP
 	
 	public bool editMode;

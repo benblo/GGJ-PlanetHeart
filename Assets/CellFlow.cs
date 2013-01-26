@@ -61,7 +61,7 @@ public class CellFlow : MonoBehaviour
             if (!isDrawing && Input.GetMouseButtonDown(0))
             {
                 Cell startCell = worldGrid.getCell(currentCellPos.X, currentCellPos.Y);
-                if (startCell.type.isArtere || startCell.flow != CellFlowDirection.None)
+                if (startCell.isArtere || startCell.flow != CellFlowDirection.None)
                 {
                     //Start digging
                     isDrawing = true;
@@ -86,7 +86,7 @@ public class CellFlow : MonoBehaviour
                     Debug.Log("cell.type.canDig: " + cell.type.canDig);
 
                     //Dig one cell
-                    if ((cell.type.canDig || cell.type.isArtere ||  cell.flow != CellFlowDirection.None) && UpdateFlow(lastCellPos, currentCellPos))
+                    if ((cell.type.canDig || cell.isArtere ||  cell.flow != CellFlowDirection.None) && UpdateFlow(lastCellPos, currentCellPos))
                         lastCellPos = currentCellPos;
 
                     if (cell.flow != CellFlowDirection.None)

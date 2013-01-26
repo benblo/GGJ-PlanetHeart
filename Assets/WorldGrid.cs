@@ -37,7 +37,7 @@ public class Cell
 public class CellType
 {
 	public string name;
-	public Color color;
+	public Color color = Color.white;
 	public int atlasY;
 
     public bool isArtere = false;
@@ -396,9 +396,7 @@ public class WorldGrid : MonoBehaviour
 	}
 	
 	void updateDig()
-	{
-
-        return;
+	{/*
         Vector2 mousePos = getMousePos();
         bool isClicked = Input.GetMouseButton(0);
 
@@ -425,7 +423,7 @@ public class WorldGrid : MonoBehaviour
                 }
             }
         }
-	}
+	*/}
 
 	void diffuse( Cell from, Cell to )
 	{
@@ -475,6 +473,7 @@ public class WorldGrid : MonoBehaviour
 	// EDITOR CRAP
 	
 	public bool editMode;
+	[BrushType]
 	public int brushType;
 	
 	void updateEditor()
@@ -498,6 +497,9 @@ public class WorldGrid : MonoBehaviour
 
     public bool drawGarry;
 	public bool drawGizmos;
+	public bool drawGrid;
+	public bool drawCells;
+	public bool debugCurCell;
 	public string debugText;
 	
 	void OnDrawGizmos()
@@ -516,78 +518,93 @@ public class WorldGrid : MonoBehaviour
             glob.DrawGizmo();
         }
 		
-		Vector2 mousePos = getMousePos();
-		Debug.DrawLine(mousePos + new Vector2(-0.1f, -0.1f), mousePos + new Vector2(0.1f, 0.1f));
-		Debug.DrawLine(mousePos + new Vector2(-0.1f, 0.1f), mousePos + new Vector2(0.1f, -0.1f));
 		
-		if ( isInBounds(mousePos) )
-		{
-			int x = (int)mousePos.x;
-			int y = (int)mousePos.y;
-			
-			Debug.DrawLine(new Vector2(x, y), new Vector2(x + 1, y + 1));
-			Debug.DrawLine(new Vector2(x, y + 1), new Vector2(x + 1, y));
 
-			//bool isClicked = Input.GetMouseButton(0);
-			//Gizmos.color = isClicked ? Color.red : Color.green;
-			//Gizmos.DrawCube(new Vector2(x, y) + new Vector2(0.5f, 0.5f), Vector2.one);
-			
-			
-			
-			Cell cell = getCell(x, y);
-			int ic = x + y * width;
-			
-			debugText = x + "," + y + " (" + ic + "): ";
-			if ( cell.type.isResource )
+		
+		if (drawGrid)
+		{
+			for (int x = 0; x < width + 1; x++)
 			{
-				debugText += "resource";
+				Debug.DrawLine(new Vector2(x, 0), new Vector2(x, height));
+			}
+			
+			for (int y = 0; y < height + 1; y++)
+			{
+				Debug.DrawLine(new Vector2(0, y), new Vector2(width, y));
+			}
+		}
+		
+		
+		if (drawCells)
+		{
+			for (int x = 0; x < width; x++)
+			{
+				for (int y = 0; y < height; y++)
+				{
+					Cell cell = getCell(x, y);
+	
+					Gizmos.color = cell.color;
+					Gizmos.DrawCube(new Vector2(x, y) + new Vector2(0.5f, 0.5f), Vector2.one);
+				}
+			}
+		}
+		
+		
+		if (debugCurCell)
+		{
+			Vector2 mousePos = getMousePos();
+			Debug.DrawLine(mousePos + new Vector2(-0.1f, -0.1f), mousePos + new Vector2(0.1f, 0.1f));
+			Debug.DrawLine(mousePos + new Vector2(-0.1f, 0.1f), mousePos + new Vector2(0.1f, -0.1f));
+			
+			if ( isInBounds(mousePos) )
+			{
+				int x = (int)mousePos.x;
+				int y = (int)mousePos.y;
+				
+				Debug.DrawLine(new Vector2(x, y), new Vector2(x + 1, y + 1));
+				Debug.DrawLine(new Vector2(x, y + 1), new Vector2(x + 1, y));
+	
+				//bool isClicked = Input.GetMouseButton(0);
+				//Gizmos.color = isClicked ? Color.red : Color.green;
+				//Gizmos.DrawCube(new Vector2(x, y) + new Vector2(0.5f, 0.5f), Vector2.one);
+				
+				
+				
+				Cell cell = getCell(x, y);
+				int ic = x + y * width;
+				
+				debugText = x + "," + y + " (" + ic + "): ";
+				if ( cell.type.isResource )
+				{
+					debugText += "resource";
+				}
+				else
+				{
+					int sum = 0;
+					
+					if ( getCell(x - 1, y + 1).type.isResource )
+						sum += 1;
+					if ( getCell(x, y + 1).type.isResource )
+						sum += 2;
+					if ( getCell(x + 1, y + 1).type.isResource )
+						sum += 4;
+					if ( getCell(x - 1, y).type.isResource )
+						sum += 8;
+					if ( getCell(x + 1, y).type.isResource )
+						sum += 16;
+					if ( getCell(x - 1, y - 1).type.isResource )
+						sum += 32;
+					if ( getCell(x, y - 1).type.isResource )
+						sum += 64;
+					if ( getCell(x + 1, y - 1).type.isResource )
+						sum += 128;
+					
+					debugText += sum;
+				}
 			}
 			else
 			{
-				int sum = 0;
-				
-				if ( getCell(x - 1, y + 1).type.isResource )
-					sum += 1;
-				if ( getCell(x, y + 1).type.isResource )
-					sum += 2;
-				if ( getCell(x + 1, y + 1).type.isResource )
-					sum += 4;
-				if ( getCell(x - 1, y).type.isResource )
-					sum += 8;
-				if ( getCell(x + 1, y).type.isResource )
-					sum += 16;
-				if ( getCell(x - 1, y - 1).type.isResource )
-					sum += 32;
-				if ( getCell(x, y - 1).type.isResource )
-					sum += 64;
-				if ( getCell(x + 1, y - 1).type.isResource )
-					sum += 128;
-				
-				debugText += sum;
-			}
-		}
-		else
-			debugText = "";
-
-		
-		for (int x = 0; x < width + 1; x++)
-		{
-			Debug.DrawLine(new Vector2(x, 0), new Vector2(x, height));
-		}
-		
-		for (int y = 0; y < height + 1; y++)
-		{
-			Debug.DrawLine(new Vector2(0, y), new Vector2(width, y));
-		}
-
-		for (int x = 0; x < width; x++)
-		{
-			for (int y = 0; y < height; y++)
-			{
-				Cell cell = getCell(x, y);
-
-				Gizmos.color = cell.color;
-				Gizmos.DrawCube(new Vector2(x, y) + new Vector2(0.5f, 0.5f), Vector2.one);
+				debugText = "";
 			}
 		}
 	}

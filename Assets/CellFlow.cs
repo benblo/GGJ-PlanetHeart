@@ -28,7 +28,7 @@ public class CellFlow : MonoBehaviour
 
     void Start()
     {
-        for (int x = 0; x < worldGrid.width; x++)
+        /*for (int x = 0; x < worldGrid.width; x++)
         {
             for (int y = 0; y < worldGrid.height; y++)
             {
@@ -48,7 +48,7 @@ public class CellFlow : MonoBehaviour
                     cell.typeIndex = airTypeIndex;
                 }
             }
-        }
+        }*/
     }
 
     void Update()

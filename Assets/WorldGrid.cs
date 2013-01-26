@@ -1,6 +1,17 @@
 using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
+using System;
+
+[Flags]
+public enum CellFlowDirection
+{
+    None = 0,
+    Up = 1,
+    Down = 2,
+    Left = 4,
+    Right = 8,
+}
 
 [System.Serializable]
 public class Cell
@@ -12,6 +23,8 @@ public class Cell
 	
 	internal float amount = 1;
 	internal float lastSpawnTime;
+
+    public CellFlowDirection flow;
 	
 	internal Color color
 	{
@@ -26,7 +39,8 @@ public class CellType
 	public string name;
 	public Color color;
 	public int atlasY;
-	
+
+    public bool isArtere = false;
 	public bool isResource;
 	public float spawnRate = 1;
 	public float spawnAmount = 0.1f;
@@ -42,9 +56,13 @@ public class CellType
 public class WorldGrid : MonoBehaviour
 {
 	public int width = 8;
-	public int height = 4;
-	
-	public List<Cell> grid;
+    public int height = 4;
+
+    public float particleSpeedMin = 0.9f;
+    public float particleSpeedMax = 1.1f;
+
+    public List<Cell> grid;
+    public List<Globule> globules = new List<Globule>();
 
 	public bool isInBounds( int x, int y )
 	{
@@ -56,13 +74,21 @@ public class WorldGrid : MonoBehaviour
 	{
 		return isInBounds((int)pos.x, (int)pos.y);
 	}
-	
-	Cell getCell( int x, int y )
+
+    public Cell getCellNeighbour(int x, int y, CellFlowDirection direction)
+    {
+        Vector3 dirVec = FlowDirectionToVector(direction);
+        if (isInBounds(new Vector2(x + (int)dirVec.x, y + (int)dirVec.y)))
+            return getCell(x + (int)dirVec.x, y + (int)dirVec.y);
+        return null;
+    }
+
+	public Cell getCell( int x, int y )
 	{
 		return grid[x + y * width];
 	}
 	
-	Cell getCell( Vector2 pos )
+	public Cell getCell( Vector2 pos )
 	{
 		return getCell((int)pos.x, (int)pos.y);
 	}
@@ -97,7 +123,7 @@ public class WorldGrid : MonoBehaviour
 		{
 			Cell c = grid[i];
 			c.type = cellTypes[c.typeIndex];
-			c.atlasX = Random.Range(0, atlasVarCount);
+			c.atlasX = UnityEngine.Random.Range(0, atlasVarCount);
 		}
 	}
 	
@@ -345,83 +371,34 @@ public class WorldGrid : MonoBehaviour
 	
 	void updateDig()
 	{
-		Vector2 mousePos = getMousePos();
-		bool isClicked = Input.GetMouseButton(0);
 
-		if ( isInBounds(mousePos) && isClicked )
-		{
-			Cell cell = getCell(mousePos);
-			if ( cell.type.canDig )
-			{
-				int x = (int)mousePos.x;
-				int y = (int)mousePos.y;
-				
-				bool ok = true;
-				
-				if ( !isEmpty(x - 1, y) &&
-					 !isEmpty(x + 1, y) &&
-					 !isEmpty(x, y - 1) && 
-					 !isEmpty(x, y + 1) )
-				{
-					ok = false;
-				}
-				
-				if ( isEmpty(x + 1, y  + 1) )
-				{
-					if ( isEmpty(x + 1, y) &&
-						 isEmpty(x, y + 1) )
-						ok = false;
-				}
-				if ( isEmpty(x - 1, y  - 1) )
-				{
-					if ( isEmpty(x - 1, y) &&
-						 isEmpty(x, y - 1) )
-						ok = false;
-				}
-				if ( isEmpty(x + 1, y  - 1) )
-				{
-					if ( isEmpty(x + 1, y) &&
-						 isEmpty(x, y - 1) )
-						ok = false;
-				}
-				if ( isEmpty(x - 1, y  + 1) )
-				{
-					if ( isEmpty(x - 1, y) &&
-						 isEmpty(x, y + 1) )
-						ok = false;
-				}
-				
-				if (ok)
-				{
-					cell.typeIndex = 0;
-					cell.type = cellTypes[cell.typeIndex];
-				}
-			}
-		}
-		
-		float dt = Time.deltaTime;
-		for (int x = 1; x < width - 1; x++)
-		{
-			for (int y = 0; y < height - 1; y++)
-			{
-				int ic = x + y * width;
-				Cell cell = grid[ic];
-				
-				if ( cell.type.canGrow )
-				{
-					if ( cell.amount < 1 )
-					{
-						cell.amount += cell.type.growSpeed * dt;
-					}
-					else
-					{
-						diffuse(cell, getCell(x, y + 1));
-						diffuse(cell, getCell(x - 1, y));
-						diffuse(cell, getCell(x + 1, y));
-					}
-				}
-			}
-		}
+        return;
+        Vector2 mousePos = getMousePos();
+        bool isClicked = Input.GetMouseButton(0);
+
+        float dt = Time.deltaTime;
+        for (int x = 1; x < width - 1; x++)
+        {
+            for (int y = 0; y < height - 1; y++)
+            {
+                int ic = x + y * width;
+                Cell cell = grid[ic];
+
+                if (cell.type.canGrow)
+                {
+                    if (cell.amount < 1)
+                    {
+                        cell.amount += cell.type.growSpeed * dt;
+                    }
+                    else
+                    {
+                        diffuse(cell, getCell(x, y + 1));
+                        diffuse(cell, getCell(x - 1, y));
+                        diffuse(cell, getCell(x + 1, y));
+                    }
+                }
+            }
+        }
 	}
 
 	void diffuse( Cell from, Cell to )
@@ -434,83 +411,29 @@ public class WorldGrid : MonoBehaviour
 		}
 	}
 	
-	
-	class ResourceParticle
-	{
-		public Vector2 curCell, nextCell;
-		public float cursor;
-		public float speed;
-	}
-	
-	public float particleSpeedMin = 0.9f;
-	public float particleSpeedMax = 1.1f;
-	
-	List<ResourceParticle> resourceParticles = new List<ResourceParticle>();
-	
 	void updateParticles()
 	{
-		float time = Time.time;
-		float dt = Time.deltaTime;
-		
-		for (int x = 1; x < width - 1; x++)
-		{
-			for (int y = 0; y < height - 1; y++)
-			{
-				Cell cell = getCell(x, y);
-				
-				if ( cell.type.isResource )
-				{
-					if ( cell.lastSpawnTime < time - cell.type.spawnRate )
-					{
-						Cell other = getCell(x - 1, y);
-						if ( other.type.isEmpty )
-						{
-							ResourceParticle particle = new ResourceParticle();
-							resourceParticles.Add(particle);
-							
-							particle.curCell = new Vector2(x, y);
-							particle.nextCell = new Vector2(x - 1, y);
-							particle.speed = Random.Range(particleSpeedMin, particleSpeedMax);
-							
-							cell.lastSpawnTime = time;
-						}
-					}
-				}
-			}
-		}
-		
-		foreach (ResourceParticle particle in resourceParticles)
-		{
-			particle.cursor += dt * particle.speed;
-			
-			if (particle.cursor >= 1)
-			{
-				particle.cursor = 1;
-				
-				int x = (int)particle.nextCell.x;
-				int y = (int)particle.nextCell.y;
-				
-				List<Vector2> availableCells = new List<Vector2>();
-				
-				checkAvailable(particle.curCell, new Vector2(x, y + 1), availableCells);
-				checkAvailable(particle.curCell, new Vector2(x - 1, y), availableCells);
-				checkAvailable(particle.curCell, new Vector2(x + 1, y), availableCells);
-				checkAvailable(particle.curCell, new Vector2(x, y - 1), availableCells);
-				
-				if (availableCells.Count > 0)
-				{
-					particle.cursor = 0;
-					particle.curCell = particle.nextCell;
-					particle.nextCell = availableCells[ Random.Range(0, availableCells.Count) ];
-				}
-			}
-			
-			Vector2 pos = Vector2.Lerp(particle.curCell, particle.nextCell, particle.cursor) + new Vector2(0.5f, 0.5f);
-			
-			Debug.DrawLine(pos + new Vector2(-0.1f, -0.1f), pos + new Vector2(0.1f, 0.1f), Color.blue);
-			Debug.DrawLine(pos + new Vector2(-0.1f, 0.1f), pos + new Vector2(0.1f, -0.1f), Color.blue);
-			
-		}
+        if (Input.GetMouseButtonDown(1))
+        {
+            Vector2 mousePos = getMousePos();
+            if (isInBounds(mousePos))
+            {
+                Cell cell = getCell(mousePos);
+                if (cell.type.isEmpty)
+                {
+                    Globule globule = new Globule(this, new Vector2((int)mousePos.x, (int)mousePos.y));
+                    globule.type = GlobuleType.None;
+                    globule.movement.speed = UnityEngine.Random.Range(particleSpeedMin, particleSpeedMax);
+
+                    globules.Add(globule);
+                }
+            }
+        }
+
+        foreach (var globule in globules)
+        {
+            globule.UpdateMovement();
+        }
 	}
 	
 	void checkAvailable( Vector2 curCell, Vector2 nextCell, List<Vector2> availableCells )
@@ -522,9 +445,6 @@ public class WorldGrid : MonoBehaviour
 			availableCells.Add(nextCell);
 		}
 	}
-	
-	
-	
 	
 	// EDITOR CRAP
 	
@@ -549,16 +469,26 @@ public class WorldGrid : MonoBehaviour
 			}
 		}
 	}
-	
 
+    public bool drawGarry;
 	public bool drawGizmos;
 	public string debugText;
 	
 	void OnDrawGizmos()
 	{
+        if (drawGarry)
+        {
+            DrawDebugGarry();
+            return;
+        }
+
 		if (!drawGizmos)
 			return;
-		
+
+        foreach (var glob in globules)
+        {
+            glob.DrawGizmo();
+        }
 		
 		Vector2 mousePos = getMousePos();
 		Debug.DrawLine(mousePos + new Vector2(-0.1f, -0.1f), mousePos + new Vector2(0.1f, 0.1f));
@@ -634,7 +564,75 @@ public class WorldGrid : MonoBehaviour
 				Gizmos.DrawCube(new Vector2(x, y) + new Vector2(0.5f, 0.5f), Vector2.one);
 			}
 		}
-
-		
 	}
+
+    private void DrawDebugGarry()
+    {
+        foreach (var glob in globules)
+        {
+            glob.DrawGizmo();
+        }
+
+        for (int x = 0; x < width; x++)
+        {
+            for (int y = 0; y < height; y++)
+            {
+                Cell cell = getCell(x, y);
+
+                Gizmos.color = cell.color;
+                DrawFlowArrows(cell, x, y);
+
+                if (cell.type.isResource)
+                {
+                    Debug.DrawLine(new Vector2(x, y), new Vector2(x + 1, y + 1));
+                    Debug.DrawLine(new Vector2(x, y + 1), new Vector2(x + 1, y));
+                }
+            }
+        }
+    }
+
+    public void DrawFlowArrows(Cell cell, int x, int y)
+    {
+        Vector3 cellCenter = new Vector2(x, y) + new Vector2(0.5f, 0.5f);
+        cellCenter.z = -2;
+        Gizmos.color = Color.red;
+        if ((cell.flow & CellFlowDirection.Up) == CellFlowDirection.Up)
+        {
+            Gizmos.DrawCube(cellCenter + FlowDirectionToVector(CellFlowDirection.Up) * 0.35f, Vector3.one * 0.1f);
+            Gizmos.DrawRay(cellCenter, FlowDirectionToVector(CellFlowDirection.Up) * 0.4f);
+            Gizmos.DrawRay(cellCenter, FlowDirectionToVector(CellFlowDirection.Down) * 0.2f);
+        }
+        if ((cell.flow & CellFlowDirection.Down) == CellFlowDirection.Down)
+        {
+            Gizmos.DrawCube(cellCenter + FlowDirectionToVector(CellFlowDirection.Down) * 0.35f, Vector3.one * 0.1f);
+            Gizmos.DrawRay(cellCenter, FlowDirectionToVector(CellFlowDirection.Down) * 0.4f);
+            Gizmos.DrawRay(cellCenter, FlowDirectionToVector(CellFlowDirection.Up) * 0.2f);
+        }
+        if ((cell.flow & CellFlowDirection.Left) == CellFlowDirection.Left)
+        {
+            Gizmos.DrawCube(cellCenter + FlowDirectionToVector(CellFlowDirection.Left) * 0.35f, Vector3.one * 0.1f);
+            Gizmos.DrawRay(cellCenter, FlowDirectionToVector(CellFlowDirection.Left) * 0.4f);
+            Gizmos.DrawRay(cellCenter, FlowDirectionToVector(CellFlowDirection.Right) * 0.2f);
+        }
+        if ((cell.flow & CellFlowDirection.Right) == CellFlowDirection.Right)
+        {
+            Gizmos.DrawCube(cellCenter + FlowDirectionToVector(CellFlowDirection.Right) * 0.35f, Vector3.one * 0.1f);
+            Gizmos.DrawRay(cellCenter, FlowDirectionToVector(CellFlowDirection.Right) * 0.4f);
+            Gizmos.DrawRay(cellCenter, FlowDirectionToVector(CellFlowDirection.Left) * 0.2f);
+        }
+    }
+
+    public Vector3 FlowDirectionToVector(CellFlowDirection direction)
+    {
+        if (direction == CellFlowDirection.Up)
+            return new Vector3(0, 1);
+        if (direction == CellFlowDirection.Down)
+            return new Vector3(0, -1);
+        if (direction == CellFlowDirection.Left)
+            return new Vector3(-1, 0);
+        if (direction == CellFlowDirection.Right)
+            return new Vector3(1, 0);
+
+        return Vector3.zero;
+    }
 }

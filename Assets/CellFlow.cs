@@ -86,7 +86,7 @@ public class CellFlow : MonoBehaviour
                     Debug.Log("cell.type.canDig: " + cell.type.canDig);
 
                     //Dig one cell
-                    if ((cell.type.canDig || cell.type.isArtere || cell.flow != CellFlowDirection.None) && UpdateFlow(lastCellPos, currentCellPos))
+                    if ((cell.type.canDig || cell.type.isArtere ||  cell.flow != CellFlowDirection.None) && UpdateFlow(lastCellPos, currentCellPos))
                         lastCellPos = currentCellPos;
 
                     if (cell.flow != CellFlowDirection.None)
@@ -109,28 +109,28 @@ public class CellFlow : MonoBehaviour
         Cell fromCell = worldGrid.getCell(from.X, from.Y);
         Cell toCell = worldGrid.getCell(to.X, to.Y);
 
-        if (from.X == to.X && lastCellPos.Y == to.Y - 1)
+        if (from.X == to.X && lastCellPos.Y == to.Y - 1 && !EnumHelper.Has(toCell.flow, CellFlowDirection.Down))
         {
             toCell.typeIndex = bloodTypeIndex;
             toCell.type = worldGrid.cellTypes[bloodTypeIndex];
             fromCell.flow = fromCell.flow | CellFlowDirection.Up;
             return true;
         }
-        else if (from.X == to.X && from.Y == to.Y + 1)
+        else if (from.X == to.X && from.Y == to.Y + 1 && !EnumHelper.Has(toCell.flow, CellFlowDirection.Up))
         {
             toCell.typeIndex = bloodTypeIndex;
             toCell.type = worldGrid.cellTypes[bloodTypeIndex];
             fromCell.flow = fromCell.flow | CellFlowDirection.Down;
             return true;
         }
-        else if (from.X == to.X + 1 && from.Y == to.Y)
+        else if (from.X == to.X + 1 && from.Y == to.Y && !EnumHelper.Has(toCell.flow, CellFlowDirection.Right))
         {
             toCell.typeIndex = bloodTypeIndex;
             toCell.type = worldGrid.cellTypes[bloodTypeIndex];
             fromCell.flow = fromCell.flow | CellFlowDirection.Left;
             return true;
         }
-        else if (from.X == to.X - 1 && from.Y == to.Y)
+        else if (from.X == to.X - 1 && from.Y == to.Y && !EnumHelper.Has(toCell.flow, CellFlowDirection.Left))
         {
             toCell.typeIndex = bloodTypeIndex;
             toCell.type = worldGrid.cellTypes[bloodTypeIndex];

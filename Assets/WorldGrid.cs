@@ -607,12 +607,6 @@ public class WorldGrid : MonoBehaviour
 
                 Gizmos.color = cell.color;
                 DrawFlowArrows(cell, x, y);
-
-                if (cell.type.isResource)
-                {
-                    Debug.DrawLine(new Vector2(x, y), new Vector2(x + 1, y + 1));
-                    Debug.DrawLine(new Vector2(x, y + 1), new Vector2(x + 1, y));
-                }
             }
         }
     }

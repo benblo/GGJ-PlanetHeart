@@ -1,6 +1,13 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\WorldGrid.cs">
+    <Files>
+      <File FileName="Assets\WorldGrid.cs" Line="609" Column="4" />
+      <File FileName="Assets\Globule.cs" Line="1" Column="1" />
+      <File FileName="Assets\CellFlow.cs" Line="51" Column="12" />
+      <File FileName="Assets\Editor\BrushTypeDrawer.cs" Line="5" Column="48" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

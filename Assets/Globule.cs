@@ -1,12 +1,14 @@
 using UnityEngine;
 using System.Collections;
 
-public enum GlobuleType
+[System.Serializable]
+public enum RessourceType
 {
     None,
     Yellow,
 }
 
+[System.Serializable]
 public class GlobuleMovement
 {
     public Vector2 curCell, nextCell;
@@ -21,9 +23,10 @@ public class GlobuleMovement
     }
 }
 
+[System.Serializable]
 public class Globule
 {
-    public GlobuleType type;
+    public RessourceType type;
     public GlobuleMovement movement;
 
     public WorldGrid worldGrid;
@@ -42,7 +45,7 @@ public class Globule
 
     public void UpdateMovement()
     {
-		float dt = Time.deltaTime;
+        float dt = Time.deltaTime;
         movement.cursor += dt * movement.speed;
         movement.jitterPhase += dt / movement.jitterPeriod * Mathf.PI;
 
@@ -56,7 +59,7 @@ public class Globule
 
             //Move in a random direction
             CellFlowDirection[] dirs = new CellFlowDirection[] { };
-            int random = UnityEngine.Random.Range(0, 3);
+            int random = UnityEngine.Random.Range(0, 4);
             if (random == 0)
                 dirs = new CellFlowDirection[] { CellFlowDirection.Up, CellFlowDirection.Right, CellFlowDirection.Down, CellFlowDirection.Left };
             if (random == 1)
@@ -86,28 +89,48 @@ public class Globule
     public virtual void OnChangeCell(Cell cell, int x, int y)
     {
         var dirs = new CellFlowDirection[] { CellFlowDirection.Right, CellFlowDirection.Up, CellFlowDirection.Left, CellFlowDirection.Down };
-        
-        bool isRessource = false;
-        foreach(var dir in dirs)
-        {
-            Cell neighbourCell = worldGrid.getCellNeighbour(x, y, dir);
-            if(cell.type.isResource)
-                isRessource = true;
-        }
 
-        if (worldGrid.getCell(x, y + 1).type.isResource)
-            isRessource = true;
-        if (worldGrid.getCell(x, y - 1).type.isResource)
-            isRessource = true;
-        if (worldGrid.getCell(x + 1, y).type.isResource)
-            isRessource = true;
-        if (worldGrid.getCell(x - 1, y).type.isResource)
-            isRessource = true;
-
-        if (isRessource && type == GlobuleType.None)
+        if (type == RessourceType.None)
         {
-            type = GlobuleType.Yellow;
+            foreach (var neightbourCell in worldGrid.getNeighbourCell(x, y))
+            {
+                Debug.Log("Neighbour: " + neightbourCell.type.ressourceType);
+                if (neightbourCell.type.ressourceType != RessourceType.None)
+                {
+                    type = neightbourCell.type.ressourceType;
+                    break;
+                }
+            }                
         }
+        else if (type == RessourceType.Yellow)
+        {
+            int mudTypeIndex = worldGrid.getCellTypeIndexByName("Mud");
+            int grassTypeIndex = worldGrid.getCellTypeIndexByName("Grass");
+
+            Cell neighbourCell = worldGrid.getCell(x, y + 1);
+            if (neighbourCell.typeIndex == mudTypeIndex)
+                ChangeMudToGrass(grassTypeIndex, neighbourCell);
+
+            neighbourCell = worldGrid.getCell(x, y - 1);
+            if (neighbourCell.typeIndex == mudTypeIndex)
+                ChangeMudToGrass(grassTypeIndex, neighbourCell);
+
+            neighbourCell = worldGrid.getCell(x + 1, y);
+            if (neighbourCell.typeIndex == mudTypeIndex)
+                ChangeMudToGrass(grassTypeIndex, neighbourCell);
+
+            neighbourCell = worldGrid.getCell(x - 1, y);
+            if (neighbourCell.typeIndex == mudTypeIndex)
+                ChangeMudToGrass(grassTypeIndex, neighbourCell);
+        }
+    }
+
+    private void ChangeMudToGrass(int grassTypeIndex, Cell cell)
+    {
+        cell.type = worldGrid.cellTypes[grassTypeIndex];
+        cell.typeIndex = grassTypeIndex;
+
+        type = RessourceType.None;
     }
 
     public void DrawGizmo()
@@ -120,7 +143,7 @@ public class Globule
         Gizmos.color = Color.white;
         Gizmos.DrawWireSphere(jitterOffset + movement.Position + new Vector2(0.5f, 0.5f), collectorRadius);
 
-        if (type == GlobuleType.Yellow)
+        if (type == RessourceType.Yellow)
         {
             Gizmos.color = Color.yellow;
             Gizmos.DrawSphere(jitterOffset + movement.Position + new Vector2(0.5f, 0.5f), ressourceRadius);

@@ -83,7 +83,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 11400000, guid: 4d9b14afc6b145e48a12b171b5925ad1, type: 2}
       propertyPath: cellTypes.Array.size
-      value: 6
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 4d9b14afc6b145e48a12b171b5925ad1, type: 2}
       propertyPath: m_LocalPosition.x
@@ -119,11 +119,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11400000, guid: 4d9b14afc6b145e48a12b171b5925ad1, type: 2}
       propertyPath: particleSpeedMin
-      value: 2
+      value: 3.20000005
       objectReference: {fileID: 0}
     - target: {fileID: 11400000, guid: 4d9b14afc6b145e48a12b171b5925ad1, type: 2}
       propertyPath: particleSpeedMax
-      value: 2.75
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 11400000, guid: 4d9b14afc6b145e48a12b171b5925ad1, type: 2}
       propertyPath: editMode
@@ -151,7 +151,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11400000, guid: 4d9b14afc6b145e48a12b171b5925ad1, type: 2}
       propertyPath: cellTypes.Array.data[5].color.r
-      value: .292938441
+      value: .294117659
       objectReference: {fileID: 0}
     - target: {fileID: 11400000, guid: 4d9b14afc6b145e48a12b171b5925ad1, type: 2}
       propertyPath: cellTypes.Array.data[5].color.a
@@ -159,7 +159,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11400000, guid: 4d9b14afc6b145e48a12b171b5925ad1, type: 2}
       propertyPath: cellTypes.Array.data[5].atlasY
-      value: 0
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 11400000, guid: 4d9b14afc6b145e48a12b171b5925ad1, type: 2}
       propertyPath: cellTypes.Array.data[5].spawnRate
@@ -171,7 +171,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11400000, guid: 4d9b14afc6b145e48a12b171b5925ad1, type: 2}
       propertyPath: cellTypes.Array.data[5].canGrow
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 11400000, guid: 4d9b14afc6b145e48a12b171b5925ad1, type: 2}
       propertyPath: cellTypes.Array.data[5].growSpeed
@@ -179,11 +179,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11400000, guid: 4d9b14afc6b145e48a12b171b5925ad1, type: 2}
       propertyPath: cellTypes.Array.data[5].isEmpty
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 11400000, guid: 4d9b14afc6b145e48a12b171b5925ad1, type: 2}
       propertyPath: cellTypes.Array.data[5].color.g
-      value: .384313703
+      value: .266666681
       objectReference: {fileID: 0}
     - target: {fileID: 11400000, guid: 4d9b14afc6b145e48a12b171b5925ad1, type: 2}
       propertyPath: cellTypes.Array.data[5].color.b
@@ -192,6 +192,102 @@ Prefab:
     - target: {fileID: 11400000, guid: 4d9b14afc6b145e48a12b171b5925ad1, type: 2}
       propertyPath: cellTypes.Array.data[4].isArtere
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 4d9b14afc6b145e48a12b171b5925ad1, type: 2}
+      propertyPath: cellTypes.Array.data[6].name
+      value: Grass
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 4d9b14afc6b145e48a12b171b5925ad1, type: 2}
+      propertyPath: cellTypes.Array.data[6].color.r
+      value: .292938441
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 4d9b14afc6b145e48a12b171b5925ad1, type: 2}
+      propertyPath: cellTypes.Array.data[6].color.g
+      value: .384313703
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 4d9b14afc6b145e48a12b171b5925ad1, type: 2}
+      propertyPath: cellTypes.Array.data[6].color.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 4d9b14afc6b145e48a12b171b5925ad1, type: 2}
+      propertyPath: cellTypes.Array.data[6].atlasY
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 4d9b14afc6b145e48a12b171b5925ad1, type: 2}
+      propertyPath: cellTypes.Array.data[6].spawnRate
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 4d9b14afc6b145e48a12b171b5925ad1, type: 2}
+      propertyPath: cellTypes.Array.data[6].spawnAmount
+      value: .100000001
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 4d9b14afc6b145e48a12b171b5925ad1, type: 2}
+      propertyPath: cellTypes.Array.data[6].canGrow
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 4d9b14afc6b145e48a12b171b5925ad1, type: 2}
+      propertyPath: cellTypes.Array.data[6].growSpeed
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 4d9b14afc6b145e48a12b171b5925ad1, type: 2}
+      propertyPath: cellTypes.Array.data[6].isEmpty
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 4d9b14afc6b145e48a12b171b5925ad1, type: 2}
+      propertyPath: cellTypes.Array.data[5].isArtere
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 4d9b14afc6b145e48a12b171b5925ad1, type: 2}
+      propertyPath: cellTypes.Array.data[7].name
+      value: Air
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 4d9b14afc6b145e48a12b171b5925ad1, type: 2}
+      propertyPath: cellTypes.Array.data[7].color.r
+      value: .327634215
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 4d9b14afc6b145e48a12b171b5925ad1, type: 2}
+      propertyPath: cellTypes.Array.data[7].color.g
+      value: .723311186
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 4d9b14afc6b145e48a12b171b5925ad1, type: 2}
+      propertyPath: cellTypes.Array.data[7].color.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 4d9b14afc6b145e48a12b171b5925ad1, type: 2}
+      propertyPath: cellTypes.Array.data[7].spawnRate
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 4d9b14afc6b145e48a12b171b5925ad1, type: 2}
+      propertyPath: cellTypes.Array.data[7].spawnAmount
+      value: .100000001
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 4d9b14afc6b145e48a12b171b5925ad1, type: 2}
+      propertyPath: cellTypes.Array.data[7].canGrow
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 4d9b14afc6b145e48a12b171b5925ad1, type: 2}
+      propertyPath: cellTypes.Array.data[7].growSpeed
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 4d9b14afc6b145e48a12b171b5925ad1, type: 2}
+      propertyPath: cellTypes.Array.data[7].isEmpty
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 4d9b14afc6b145e48a12b171b5925ad1, type: 2}
+      propertyPath: cellTypes.Array.data[7].color.b
+      value: .828358173
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 4d9b14afc6b145e48a12b171b5925ad1, type: 2}
+      propertyPath: drawGizmos
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 4d9b14afc6b145e48a12b171b5925ad1, type: 2}
+      propertyPath: cellTypes.Array.data[3].ressourceType
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 4d9b14afc6b145e48a12b171b5925ad1, type: 2}
+      propertyPath: debugText
+      value: 
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 4d9b14afc6b145e48a12b171b5925ad1, type: 2}
@@ -283,8 +379,8 @@ MonoBehaviour:
   m_Name: 
   width: 42
   height: 42
-  particleSpeedMin: 2
-  particleSpeedMax: 2.75
+  particleSpeedMin: 3.20000005
+  particleSpeedMax: 4
   grid:
   - typeIndex: 1
     flow: 0
@@ -3814,12 +3910,14 @@ MonoBehaviour:
     flow: 0
   - typeIndex: 1
     flow: 0
+  globules: []
   cellTypes:
   - name: Empty
     color: {r: 1, g: 1, b: 1, a: 1}
     atlasY: 0
     isArtere: 0
     isResource: 0
+    ressourceType: 0
     spawnRate: 1
     spawnAmount: .100000001
     canDig: 0
@@ -3832,6 +3930,7 @@ MonoBehaviour:
     atlasY: 5
     isArtere: 0
     isResource: 0
+    ressourceType: 0
     spawnRate: 1
     spawnAmount: .100000001
     canDig: 1
@@ -3844,6 +3943,7 @@ MonoBehaviour:
     atlasY: 2
     isArtere: 0
     isResource: 1
+    ressourceType: 0
     spawnRate: 1
     spawnAmount: .100000001
     canDig: 0
@@ -3856,6 +3956,7 @@ MonoBehaviour:
     atlasY: 4
     isArtere: 0
     isResource: 1
+    ressourceType: 1
     spawnRate: 1
     spawnAmount: .100000001
     canDig: 0
@@ -3868,6 +3969,7 @@ MonoBehaviour:
     atlasY: 6
     isArtere: 1
     isResource: 0
+    ressourceType: 0
     spawnRate: 1
     spawnAmount: .100000001
     canDig: 0
@@ -3876,15 +3978,42 @@ MonoBehaviour:
     growSpeed: 1.5
     isEmpty: 1
   - name: Mud
-    color: {r: .292938441, g: .384313703, b: 0, a: 1}
-    atlasY: 0
+    color: {r: .294117659, g: .266666681, b: 0, a: 1}
+    atlasY: 6
     isArtere: 0
     isResource: 0
+    ressourceType: 0
+    spawnRate: 1
+    spawnAmount: .100000001
+    canDig: 0
+    canDiffuse: 0
+    canGrow: 0
+    growSpeed: 1.5
+    isEmpty: 0
+  - name: Grass
+    color: {r: .292938441, g: .384313703, b: 0, a: 1}
+    atlasY: 1
+    isArtere: 0
+    isResource: 0
+    ressourceType: 0
     spawnRate: 1
     spawnAmount: .100000001
     canDig: 0
     canDiffuse: 0
     canGrow: 1
+    growSpeed: 1.5
+    isEmpty: 0
+  - name: Air
+    color: {r: .327634215, g: .723311186, b: .828358173, a: 1}
+    atlasY: 0
+    isArtere: 0
+    isResource: 0
+    ressourceType: 0
+    spawnRate: 1
+    spawnAmount: .100000001
+    canDig: 0
+    canDiffuse: 0
+    canGrow: 0
     growSpeed: 1.5
     isEmpty: 1
   mainMesh: {fileID: 4300000, guid: c832d16dbce44d24b9842fc750e44ae4, type: 2}
@@ -3896,8 +4025,8 @@ MonoBehaviour:
   editMode: 0
   brushType: 3
   drawGarry: 0
-  drawGizmos: 0
-  debugText: '18,36 (1530): 0'
+  drawGizmos: 1
+  debugText: 
 --- !u!4 &368921885
 Transform:
   m_ObjectHideFlags: 0

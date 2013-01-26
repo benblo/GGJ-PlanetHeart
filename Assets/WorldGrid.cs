@@ -42,6 +42,8 @@ public class CellType
 
     public bool isArtere = false;
 	public bool isResource;
+    public RessourceType ressourceType;
+
 	public float spawnRate = 1;
 	public float spawnAmount = 0.1f;
 	
@@ -92,12 +94,36 @@ public class WorldGrid : MonoBehaviour
 	{
 		return getCell((int)pos.x, (int)pos.y);
 	}
+
+    public IEnumerable<Cell> getNeighbourCell(int x, int y)
+    {
+        if (isInBounds(x, y + 1))
+            yield return getCell(x, y + 1);
+
+        if (isInBounds(x, y - 1))
+            yield return getCell(x, y - 1);
+
+        if (isInBounds(x + 1, y))
+            yield return getCell(x + 1, y);
+
+        if (isInBounds(x - 1, y))
+            yield return getCell(x - 1, y);
+    }
 	
 	Vector2 getMousePos()
 	{
 		return Camera.main.ScreenToWorldPoint(Input.mousePosition);
 	}
-	
+
+    public int getCellTypeIndexByName(String name)
+    {
+        for (int i = 0; i< cellTypes.Length; i++)
+        {
+            if (cellTypes[i].name == name)
+                return i;
+        }
+        return -1;
+    }	
 	
 	public CellType[] cellTypes;
 	
@@ -422,7 +448,7 @@ public class WorldGrid : MonoBehaviour
                 if (cell.type.isEmpty)
                 {
                     Globule globule = new Globule(this, new Vector2((int)mousePos.x, (int)mousePos.y));
-                    globule.type = GlobuleType.None;
+                    globule.type = RessourceType.None;
                     globule.movement.speed = UnityEngine.Random.Range(particleSpeedMin, particleSpeedMax);
 
                     globules.Add(globule);

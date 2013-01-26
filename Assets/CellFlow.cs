@@ -35,9 +35,17 @@ public class CellFlow : MonoBehaviour
                 Cell cell = worldGrid.getCell(x, y);
                 cell.flow = CellFlowDirection.None;
 
-                if (y > 32)
+                int mudTypeIndex = worldGrid.getCellTypeIndexByName("Mud");
+                int airTypeIndex = worldGrid.getCellTypeIndexByName("Air");
+                if (y == 34)
                 {
-                    cell.type = worldGrid.cellTypes[5];
+                    cell.type = worldGrid.cellTypes[mudTypeIndex];
+                    cell.typeIndex = mudTypeIndex;
+                }
+                if (y > 34)
+                {
+                    cell.type = worldGrid.cellTypes[airTypeIndex];
+                    cell.typeIndex = airTypeIndex;
                 }
             }
         }
@@ -74,11 +82,11 @@ public class CellFlow : MonoBehaviour
                     Cell cell = worldGrid.getCell(currentCellPos.X, currentCellPos.Y);
 
                     Debug.Log("Try Digging");
-                    Debug.Log("lastCell.flow: " + lastCell.flow);
-                    Debug.Log("lastCell.type.isArtere: " + lastCell.type.isArtere);
+                    Debug.Log("cell.flow: " + cell.flow);
+                    Debug.Log("cell.type.canDig: " + cell.type.canDig);
 
                     //Dig one cell
-                    if (UpdateFlow(lastCellPos, currentCellPos))
+                    if ((cell.type.canDig || cell.type.isArtere || cell.flow != CellFlowDirection.None) && UpdateFlow(lastCellPos, currentCellPos))
                         lastCellPos = currentCellPos;
 
                     if (cell.flow != CellFlowDirection.None)
@@ -96,34 +104,36 @@ public class CellFlow : MonoBehaviour
     /// <returns></returns>
     private bool UpdateFlow(Point from, Point to)
     {
+        int bloodTypeIndex = worldGrid.getCellTypeIndexByName("Blood");
+
         Cell fromCell = worldGrid.getCell(from.X, from.Y);
         Cell toCell = worldGrid.getCell(to.X, to.Y);
 
         if (from.X == to.X && lastCellPos.Y == to.Y - 1)
         {
-            toCell.typeIndex = 0;
-            toCell.type = worldGrid.cellTypes[toCell.typeIndex];
+            toCell.typeIndex = bloodTypeIndex;
+            toCell.type = worldGrid.cellTypes[bloodTypeIndex];
             fromCell.flow = fromCell.flow | CellFlowDirection.Up;
             return true;
         }
         else if (from.X == to.X && from.Y == to.Y + 1)
         {
-            toCell.typeIndex = 0;
-            toCell.type = worldGrid.cellTypes[toCell.typeIndex];
+            toCell.typeIndex = bloodTypeIndex;
+            toCell.type = worldGrid.cellTypes[bloodTypeIndex];
             fromCell.flow = fromCell.flow | CellFlowDirection.Down;
             return true;
         }
         else if (from.X == to.X + 1 && from.Y == to.Y)
         {
-            toCell.typeIndex = 0;
-            toCell.type = worldGrid.cellTypes[toCell.typeIndex];
+            toCell.typeIndex = bloodTypeIndex;
+            toCell.type = worldGrid.cellTypes[bloodTypeIndex];
             fromCell.flow = fromCell.flow | CellFlowDirection.Left;
             return true;
         }
         else if (from.X == to.X - 1 && from.Y == to.Y)
         {
-            toCell.typeIndex = 0;
-            toCell.type = worldGrid.cellTypes[toCell.typeIndex];
+            toCell.typeIndex = bloodTypeIndex;
+            toCell.type = worldGrid.cellTypes[bloodTypeIndex];
             fromCell.flow = fromCell.flow | CellFlowDirection.Right;
             return true;
         }

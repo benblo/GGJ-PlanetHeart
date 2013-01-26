@@ -78,7 +78,7 @@ NavMeshSettings:
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 100004, guid: 4d9b14afc6b145e48a12b171b5925ad1, type: 2}
-  m_PrefabInternal: {fileID: 1797771088}
+  m_PrefabInternal: {fileID: 883678887}
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 98211915}
@@ -96,7 +96,7 @@ Renderer:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 2300002, guid: 4d9b14afc6b145e48a12b171b5925ad1,
     type: 2}
-  m_PrefabInternal: {fileID: 1797771088}
+  m_PrefabInternal: {fileID: 883678887}
   m_GameObject: {fileID: 98211911}
   m_Enabled: 1
   m_CastShadows: 1
@@ -115,14 +115,14 @@ MeshFilter:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 3300002, guid: 4d9b14afc6b145e48a12b171b5925ad1,
     type: 2}
-  m_PrefabInternal: {fileID: 1797771088}
+  m_PrefabInternal: {fileID: 883678887}
   m_GameObject: {fileID: 98211911}
   m_Mesh: {fileID: 4300000, guid: 6e1213fc98495da4c96e6e4b1d232c18, type: 2}
 --- !u!4 &98211915
 Transform:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 400004, guid: 4d9b14afc6b145e48a12b171b5925ad1, type: 2}
-  m_PrefabInternal: {fileID: 1797771088}
+  m_PrefabInternal: {fileID: 883678887}
   m_GameObject: {fileID: 98211911}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -1}
@@ -133,7 +133,7 @@ Transform:
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 100000, guid: 4d9b14afc6b145e48a12b171b5925ad1, type: 2}
-  m_PrefabInternal: {fileID: 1797771088}
+  m_PrefabInternal: {fileID: 883678887}
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 368921885}
@@ -150,2582 +150,1782 @@ MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 11400000, guid: 4d9b14afc6b145e48a12b171b5925ad1,
     type: 2}
-  m_PrefabInternal: {fileID: 1797771088}
+  m_PrefabInternal: {fileID: 883678887}
   m_GameObject: {fileID: 368921883}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 71167defcbd386a4d8e98436834bf488, type: 3}
   m_Name: 
-  width: 32
-  height: 16
+  width: 42
+  height: 42
   grid:
   - typeIndex: 1
-    atlasX: 4
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 3
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 0
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 0
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 0
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 1
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 1
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 1
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 2
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 1
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 4
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 3
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 4
-    atlasX: 1
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 1
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 4
-    atlasX: 4
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 1
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 4
-    atlasX: 1
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 0
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 4
-    atlasX: 2
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 0
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 0
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 4
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 0
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 0
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 2
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 1
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 1
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 4
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 4
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 2
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 2
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 4
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 4
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 2
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 3
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 4
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 2
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 3
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 2
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 2
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 3
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 2
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 2
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 0
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 4
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 4
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 0
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 1
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 0
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 2
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 2
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 2
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 2
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 2
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 2
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 0
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 1
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 1
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 1
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 1
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 3
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 2
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 0
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 2
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 2
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 2
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 0
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 0
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 1
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 0
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 3
-    isHalo: 1
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 1
-    isHalo: 1
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 3
-    isHalo: 1
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 0
-    isHalo: 1
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 3
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 4
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 0
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 2
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 4
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 0
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 4
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 2
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 2
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 2
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 4
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 2
-    atlasX: 1
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 2
-    atlasX: 3
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 2
-    atlasX: 2
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 2
-    atlasX: 0
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 2
-    atlasX: 1
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 4
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 3
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 4
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 2
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 1
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 0
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 3
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 2
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 4
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 3
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 2
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 2
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 1
-    isHalo: 1
-    amount: 1
-    lastSpawnTime: 0
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
   - typeIndex: 3
-    atlasX: 1
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
   - typeIndex: 3
-    atlasX: 3
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 1
-    isHalo: 1
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 0
-    isHalo: 1
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 4
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 3
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 3
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 0
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 3
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 0
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 2
-    atlasX: 0
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 2
-    atlasX: 0
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 2
-    atlasX: 3
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 2
-    atlasX: 4
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 2
-    atlasX: 1
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 2
-    atlasX: 3
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 2
-    atlasX: 2
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 2
-    atlasX: 3
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 2
-    atlasX: 0
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 2
-    atlasX: 3
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 2
-    atlasX: 0
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 0
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 3
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 0
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 1
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 2
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 3
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 4
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 0
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 4
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 1
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 3
-    isHalo: 1
-    amount: 1
-    lastSpawnTime: 0
   - typeIndex: 3
-    atlasX: 2
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
   - typeIndex: 3
-    atlasX: 4
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
   - typeIndex: 3
-    atlasX: 3
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 2
-    isHalo: 1
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 4
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 4
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 1
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 3
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 1
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 2
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 4
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 3
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 4
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 4
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 0
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 2
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 4
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 4
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 2
-    atlasX: 3
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 2
-    atlasX: 3
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 2
-    atlasX: 1
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 2
-    atlasX: 2
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 2
-    atlasX: 3
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 2
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 2
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 4
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 1
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 1
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 1
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 4
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 4
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 3
-    isHalo: 1
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 1
-    isHalo: 1
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 4
-    isHalo: 1
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 4
-    isHalo: 1
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 4
-    isHalo: 1
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 0
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 4
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 1
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 0
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 0
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 1
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 3
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 0
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 1
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 1
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 1
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 3
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 0
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 1
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 3
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 3
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 3
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 2
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 1
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 4
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 3
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 4
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 1
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 2
-    atlasX: 3
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 2
-    atlasX: 0
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 2
-    atlasX: 2
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 2
-    atlasX: 4
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 0
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 3
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 0
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 2
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 3
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 3
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 4
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 3
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 2
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 0
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 2
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 3
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 0
-    isHalo: 1
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 1
-    isHalo: 1
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 4
-    isHalo: 1
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 2
-    isHalo: 1
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 4
-    isHalo: 1
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 4
-    isHalo: 1
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 3
-    isHalo: 1
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 2
-    isHalo: 1
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 0
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 3
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 2
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 3
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 3
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 2
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 0
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 0
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 0
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 3
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 2
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 2
-    atlasX: 2
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 2
-    atlasX: 3
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 2
-    atlasX: 1
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 1
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 0
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 3
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 2
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 2
-    atlasX: 0
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 2
-    atlasX: 2
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 2
-    atlasX: 2
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 4
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 0
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 4
-    isHalo: 1
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 4
-    isHalo: 1
-    amount: 1
-    lastSpawnTime: 0
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
   - typeIndex: 3
-    atlasX: 4
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
   - typeIndex: 3
-    atlasX: 2
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
   - typeIndex: 3
-    atlasX: 2
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
   - typeIndex: 3
-    atlasX: 4
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
   - typeIndex: 3
-    atlasX: 4
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
   - typeIndex: 3
-    atlasX: 1
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 0
-    isHalo: 1
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 4
-    isHalo: 1
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 4
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 3
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 3
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 3
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 1
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 0
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 1
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 2
-    isHalo: 1
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 2
-    isHalo: 1
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 0
-    isHalo: 1
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 1
-    isHalo: 1
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 3
-    isHalo: 1
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 4
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 1
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 4
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 1
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 3
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 2
-    atlasX: 3
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 2
-    atlasX: 0
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 2
-    atlasX: 1
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 2
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 2
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 1
-    isHalo: 1
-    amount: 1
-    lastSpawnTime: 0
   - typeIndex: 3
-    atlasX: 3
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
   - typeIndex: 3
-    atlasX: 2
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
   - typeIndex: 3
-    atlasX: 0
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
   - typeIndex: 3
-    atlasX: 1
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
   - typeIndex: 3
-    atlasX: 3
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
   - typeIndex: 3
-    atlasX: 4
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
   - typeIndex: 3
-    atlasX: 2
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
   - typeIndex: 3
-    atlasX: 2
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 4
-    isHalo: 1
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 0
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 3
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 1
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 4
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 4
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 4
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 0
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 0
-    isHalo: 1
-    amount: 1
-    lastSpawnTime: 0
   - typeIndex: 3
-    atlasX: 4
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
   - typeIndex: 3
-    atlasX: 0
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
   - typeIndex: 3
-    atlasX: 3
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 3
-    isHalo: 1
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 2
-    isHalo: 1
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 3
-    isHalo: 1
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 1
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 2
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 0
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 1
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 1
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 0
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 4
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 4
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 2
-    isHalo: 1
-    amount: 1
-    lastSpawnTime: 0
   - typeIndex: 3
-    atlasX: 2
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
   - typeIndex: 3
-    atlasX: 0
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
   - typeIndex: 3
-    atlasX: 4
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
   - typeIndex: 3
-    atlasX: 3
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
   - typeIndex: 3
-    atlasX: 1
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
   - typeIndex: 3
-    atlasX: 2
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
   - typeIndex: 3
-    atlasX: 4
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
   - typeIndex: 3
-    atlasX: 0
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
   - typeIndex: 1
-    atlasX: 0
-    isHalo: 1
-    amount: 1
-    lastSpawnTime: 0
   - typeIndex: 1
-    atlasX: 1
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
   - typeIndex: 1
-    atlasX: 1
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
   - typeIndex: 1
-    atlasX: 2
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
   - typeIndex: 1
-    atlasX: 3
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
   - typeIndex: 1
-    atlasX: 2
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
   - typeIndex: 1
-    atlasX: 4
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
   - typeIndex: 1
-    atlasX: 3
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
   - typeIndex: 1
-    atlasX: 4
-    isHalo: 1
-    amount: 1
-    lastSpawnTime: 0
+  - typeIndex: 1
   - typeIndex: 3
-    atlasX: 0
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
   - typeIndex: 3
-    atlasX: 3
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
   - typeIndex: 3
-    atlasX: 1
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
   - typeIndex: 3
-    atlasX: 3
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
   - typeIndex: 3
-    atlasX: 2
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 0
-    isHalo: 1
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 1
-    isHalo: 1
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 2
-    isHalo: 1
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 1
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 2
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 1
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 0
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 1
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 2
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 2
-    isHalo: 1
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 0
-    isHalo: 1
-    amount: 1
-    lastSpawnTime: 0
   - typeIndex: 3
-    atlasX: 2
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
   - typeIndex: 3
-    atlasX: 0
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
   - typeIndex: 3
-    atlasX: 0
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
   - typeIndex: 3
-    atlasX: 4
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
   - typeIndex: 3
-    atlasX: 4
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
   - typeIndex: 3
-    atlasX: 2
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
   - typeIndex: 3
-    atlasX: 1
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 4
-    isHalo: 1
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 1
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 2
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 3
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 1
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 4
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 0
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 2
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 4
-    isHalo: 1
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 3
-    isHalo: 1
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 3
-    isHalo: 1
-    amount: 1
-    lastSpawnTime: 0
   - typeIndex: 3
-    atlasX: 0
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
   - typeIndex: 3
-    atlasX: 3
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
   - typeIndex: 3
-    atlasX: 1
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
   - typeIndex: 3
-    atlasX: 1
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
   - typeIndex: 3
-    atlasX: 1
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 3
-    isHalo: 1
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 0
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 3
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 4
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 1
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 2
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 0
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 4
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 3
-    isHalo: 1
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 3
-    isHalo: 1
-    amount: 1
-    lastSpawnTime: 0
   - typeIndex: 3
-    atlasX: 2
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
   - typeIndex: 3
-    atlasX: 3
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
   - typeIndex: 3
-    atlasX: 3
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
   - typeIndex: 3
-    atlasX: 2
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 3
-    isHalo: 1
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 1
-    isHalo: 1
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 3
-    isHalo: 1
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 2
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 0
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 0
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 0
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 0
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 3
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 2
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 1
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 1
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 1
-    isHalo: 1
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 2
-    isHalo: 1
-    amount: 1
-    lastSpawnTime: 0
   - typeIndex: 3
-    atlasX: 2
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
   - typeIndex: 3
-    atlasX: 0
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
   - typeIndex: 3
-    atlasX: 2
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
   - typeIndex: 3
-    atlasX: 4
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 1
-    isHalo: 1
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 0
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 0
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 0
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 1
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 1
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 1
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 0
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 2
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 0
-    isHalo: 1
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 1
-    isHalo: 1
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 0
-    isHalo: 1
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 0
-    isHalo: 1
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 2
-    isHalo: 1
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 4
-    isHalo: 1
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 2
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 2
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 2
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 4
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 0
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 1
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 0
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 3
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 3
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 2
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 4
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 2
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 1
-    isHalo: 1
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 4
-    isHalo: 1
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 2
-    isHalo: 1
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 4
-    isHalo: 1
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 1
-    isHalo: 1
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 0
-    isHalo: 1
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 2
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 1
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 0
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 0
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 4
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 2
-    atlasX: 2
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 2
-    atlasX: 0
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 3
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 0
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 3
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 2
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 4
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 0
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 0
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 1
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 3
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 1
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 1
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 4
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 2
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 4
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 0
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 0
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 0
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 2
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 3
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 2
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 0
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 1
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 1
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 1
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 4
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 2
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 2
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 0
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 2
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 0
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 0
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 2
-    atlasX: 3
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 2
-    atlasX: 2
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 2
-    atlasX: 0
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 2
-    atlasX: 0
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 2
-    atlasX: 4
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 2
-    atlasX: 2
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 2
-    atlasX: 3
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 0
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 3
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 0
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 3
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 1
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 2
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 0
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 3
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 1
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 3
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 1
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 0
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 4
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 2
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 2
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 2
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 1
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 1
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 2
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 3
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 4
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 1
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 0
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 3
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 0
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 3
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 1
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 1
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 1
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 0
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 4
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 4
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 1
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 4
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 0
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 0
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 3
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 1
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 2
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
-  - typeIndex: 1
-    atlasX: 2
-    isHalo: 0
-    amount: 1
-    lastSpawnTime: 0
+  - typeIndex: 3
+  - typeIndex: 3
+  - typeIndex: 3
+  - typeIndex: 3
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 3
+  - typeIndex: 3
+  - typeIndex: 3
+  - typeIndex: 3
+  - typeIndex: 3
+  - typeIndex: 3
+  - typeIndex: 3
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 3
+  - typeIndex: 3
+  - typeIndex: 3
+  - typeIndex: 3
+  - typeIndex: 3
+  - typeIndex: 3
+  - typeIndex: 3
+  - typeIndex: 3
+  - typeIndex: 3
+  - typeIndex: 3
+  - typeIndex: 3
+  - typeIndex: 3
+  - typeIndex: 3
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 3
+  - typeIndex: 3
+  - typeIndex: 3
+  - typeIndex: 3
+  - typeIndex: 3
+  - typeIndex: 3
+  - typeIndex: 3
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 3
+  - typeIndex: 3
+  - typeIndex: 3
+  - typeIndex: 3
+  - typeIndex: 3
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 3
+  - typeIndex: 3
+  - typeIndex: 3
+  - typeIndex: 3
+  - typeIndex: 3
+  - typeIndex: 3
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 3
+  - typeIndex: 3
+  - typeIndex: 3
+  - typeIndex: 3
+  - typeIndex: 3
+  - typeIndex: 3
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 3
+  - typeIndex: 3
+  - typeIndex: 3
+  - typeIndex: 3
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 3
+  - typeIndex: 3
+  - typeIndex: 3
+  - typeIndex: 3
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 3
+  - typeIndex: 3
+  - typeIndex: 3
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 3
+  - typeIndex: 3
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 3
+  - typeIndex: 3
+  - typeIndex: 3
+  - typeIndex: 3
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 3
+  - typeIndex: 3
+  - typeIndex: 3
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
+  - typeIndex: 1
   cellTypes:
   - name: Empty
     color: {r: 1, g: 1, b: 1, a: 1}
-    uv0: {x: 0, y: 0}
-    uv1: {x: 0, y: .5}
-    uv2: {x: .5, y: .5}
-    uv3: {x: .5, y: 0}
     atlasY: 0
     isResource: 0
     spawnRate: 1
@@ -2737,11 +1937,7 @@ MonoBehaviour:
     isEmpty: 1
   - name: Sand
     color: {r: .925373137, g: .587038696, b: .145021155, a: 1}
-    uv0: {x: 0, y: .5}
-    uv1: {x: 0, y: 1}
-    uv2: {x: .5, y: 1}
-    uv3: {x: .5, y: .5}
-    atlasY: 3
+    atlasY: 5
     isResource: 0
     spawnRate: 1
     spawnAmount: .100000001
@@ -2752,10 +1948,6 @@ MonoBehaviour:
     isEmpty: 0
   - name: Rock
     color: {r: .270588249, g: .270588249, b: .270588249, a: 1}
-    uv0: {x: .5, y: 0}
-    uv1: {x: .5, y: .5}
-    uv2: {x: 1, y: .5}
-    uv3: {x: 1, y: 0}
     atlasY: 2
     isResource: 0
     spawnRate: 1
@@ -2767,11 +1959,7 @@ MonoBehaviour:
     isEmpty: 0
   - name: Gold
     color: {r: .972028017, g: 1, b: 0, a: 1}
-    uv0: {x: .5, y: .5}
-    uv1: {x: .5, y: 1}
-    uv2: {x: 1, y: 1}
-    uv3: {x: 1, y: .5}
-    atlasY: 1
+    atlasY: 4
     isResource: 1
     spawnRate: 1
     spawnAmount: .100000001
@@ -2782,10 +1970,6 @@ MonoBehaviour:
     isEmpty: 0
   - name: Blood
     color: {r: 1, g: 0, b: 0, a: 1}
-    uv0: {x: .5, y: .5}
-    uv1: {x: .5, y: 1}
-    uv2: {x: 1, y: 1}
-    uv3: {x: 1, y: .5}
     atlasY: 4
     isResource: 0
     spawnRate: 1
@@ -2797,19 +1981,21 @@ MonoBehaviour:
     isEmpty: 1
   mainMesh: {fileID: 4300000, guid: c832d16dbce44d24b9842fc750e44ae4, type: 2}
   frontMesh: {fileID: 4300000, guid: 6e1213fc98495da4c96e6e4b1d232c18, type: 2}
-  atlasWidth: 8
-  atlasHeight: 8
+  atlasWidth: 16
+  atlasHeight: 16
   atlasVarCount: 5
+  borderAtlasY: 3
   particleSpeedMin: .899999976
   particleSpeedMax: 1.10000002
-  editMode: 0
-  brushType: 1
+  editMode: 1
+  brushType: 3
   drawGizmos: 0
+  debugText: '18,36 (1530): 0'
 --- !u!4 &368921885
 Transform:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 400000, guid: 4d9b14afc6b145e48a12b171b5925ad1, type: 2}
-  m_PrefabInternal: {fileID: 1797771088}
+  m_PrefabInternal: {fileID: 883678887}
   m_GameObject: {fileID: 368921883}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
@@ -2878,7 +2064,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 8.31999969
+  orthographic size: 21
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -2893,7 +2079,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 646455506}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 16, y: 8, z: -36}
+  m_LocalPosition: {x: 21, y: 21, z: -100}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -2901,7 +2087,7 @@ Transform:
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 100002, guid: 4d9b14afc6b145e48a12b171b5925ad1, type: 2}
-  m_PrefabInternal: {fileID: 1797771088}
+  m_PrefabInternal: {fileID: 883678887}
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 672117452}
@@ -2919,7 +2105,7 @@ Renderer:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 2300000, guid: 4d9b14afc6b145e48a12b171b5925ad1,
     type: 2}
-  m_PrefabInternal: {fileID: 1797771088}
+  m_PrefabInternal: {fileID: 883678887}
   m_GameObject: {fileID: 672117448}
   m_Enabled: 1
   m_CastShadows: 1
@@ -2938,21 +2124,21 @@ MeshFilter:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 3300000, guid: 4d9b14afc6b145e48a12b171b5925ad1,
     type: 2}
-  m_PrefabInternal: {fileID: 1797771088}
+  m_PrefabInternal: {fileID: 883678887}
   m_GameObject: {fileID: 672117448}
   m_Mesh: {fileID: 4300000, guid: c832d16dbce44d24b9842fc750e44ae4, type: 2}
 --- !u!4 &672117452
 Transform:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 400002, guid: 4d9b14afc6b145e48a12b171b5925ad1, type: 2}
-  m_PrefabInternal: {fileID: 1797771088}
+  m_PrefabInternal: {fileID: 883678887}
   m_GameObject: {fileID: 672117448}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 368921885}
---- !u!1001 &1797771088
+--- !u!1001 &883678887
 Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -2986,6 +2172,14 @@ Prefab:
     - target: {fileID: 400000, guid: 4d9b14afc6b145e48a12b171b5925ad1, type: 2}
       propertyPath: m_LocalRotation.w
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 4d9b14afc6b145e48a12b171b5925ad1, type: 2}
+      propertyPath: grid.Array.data[1037].typeIndex
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 4d9b14afc6b145e48a12b171b5925ad1, type: 2}
+      propertyPath: debugText
+      value: '18,36 (1530): 0'
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 4d9b14afc6b145e48a12b171b5925ad1, type: 2}

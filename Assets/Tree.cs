@@ -8,8 +8,11 @@ public class Tree
     public Cell cell;
     WorldGrid worldGrid;
     RessourceConsumer ressourceConsumer;
-	
-    public int ressourcesForGrowth = 3;
+
+    public int heartToGiveMax = 3;
+    public int heartToGive;
+
+    public int ressourcesForGrowth = 2;
     public int currentRessources;
     public int growthLevel = 0;
     public int maxLevel = 6;
@@ -27,6 +30,7 @@ public class Tree
         ressourceConsumer.createTypes = RessourceType.None;
         ressourceConsumer.consumTypes = RessourceType.Blue | RessourceType.Green;
         ressourceConsumer.OnRessourceConsumed += new RessourceConsumer.RessourceEvent(ressourceConsumer_OnRessourceConsumed);
+        ressourceConsumer.OnRessourceCreated += new RessourceConsumer.RessourceEvent(ressourceConsumer_OnRessourceCreated);
 
         cell.ressourceConsumer = ressourceConsumer;
 		
@@ -35,6 +39,15 @@ public class Tree
 		animOffset = Random.value;
 		
         worldGrid.trees.Add(this);
+    }
+
+    bool ressourceConsumer_OnRessourceCreated(RessourceType type)
+    {
+        heartToGive--;
+        if(heartToGive == 0)
+            growthLevel--;
+
+        return true;
     }
 
     bool ressourceConsumer_OnRessourceConsumed(RessourceType type)
@@ -68,14 +81,27 @@ public class Tree
 
     public void Update()
     {
-        int ressourceForLevel = ressourcesForGrowth + 2 * growthLevel;
+        int ressourceForLevel = ressourcesForGrowth + 1 * growthLevel;
         if (currentRessources >= ressourceForLevel)
         {
             currentRessources -= ressourceForLevel;
             growthLevel++;
 
             if (growthLevel == maxLevel)
-                ressourceConsumer.consumTypes = RessourceType.None;
+            {
+                heartToGive = heartToGiveMax;
+            }
+        }
+
+        if (growthLevel == maxLevel)
+        {
+            ressourceConsumer.consumTypes = RessourceType.None;
+            ressourceConsumer.createTypes = RessourceType.Heart;
+        }
+        else
+        {
+            ressourceConsumer.createTypes = RessourceType.None;
+            ressourceConsumer.consumTypes = RessourceType.Blue | RessourceType.Green;
         }
     }
 }

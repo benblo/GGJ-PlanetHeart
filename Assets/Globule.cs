@@ -8,6 +8,8 @@ public enum RessourceType
     None = 0,
     Green = 1,
     Blue = 2,
+    Purple = 8,
+    Heart = 4,
 }
 
 [System.Serializable]
@@ -101,18 +103,23 @@ public class Globule
                     type = neighbourCell.type.ressourceType;
                     break;
                 }
+                else if (neighbourCell.ressourceConsumer != null && neighbourCell.ressourceConsumer.createTypes != RessourceType.None)
+                {
+                    type = neighbourCell.ressourceConsumer.Create();
+                    break;
+                }
             }                
         }
         else if (type == RessourceType.Green)
         {
             int mudTypeIndex = worldGrid.getCellTypeIndexByName("Mud");
-
+            UnityEngine.Debug.Log("mudTypeIndex:" + mudTypeIndex);
             foreach (var neighbourCell in worldGrid.getNeighbourCell(x, y))
             {
+                UnityEngine.Debug.Log("neighbourCell.typeIndex:" + neighbourCell.typeIndex);
+                UnityEngine.Debug.Log("neighbourCell.hasGrass:" + neighbourCell.hasGrass);
                 if (neighbourCell.typeIndex == mudTypeIndex && !neighbourCell.hasGrass)
                     ChangeMudToGrass(neighbourCell, x, y);
-
-
             }
         }
 
@@ -138,6 +145,7 @@ public class Globule
 
     private void ChangeMudToGrass(Cell cell, int x, int y)
     {
+        Debug.Log("ChangeMudToGrass");
         //Spawn grass sprite
         cell.hasGrass = true;
         type = RessourceType.None;
@@ -163,6 +171,16 @@ public class Globule
         else if (type == RessourceType.Blue)
         {
             Gizmos.color = Color.blue;
+            Gizmos.DrawSphere(jitterOffset + movement.Position + new Vector2(0.5f, 0.5f), ressourceRadius);
+        }
+        else if (type == RessourceType.Heart)
+        {
+            Gizmos.color = Color.red;
+            Gizmos.DrawSphere(jitterOffset + movement.Position + new Vector2(0.5f, 0.5f), ressourceRadius);
+        }
+        else if (type == RessourceType.Purple)
+        {
+            Gizmos.color = Color.magenta;
             Gizmos.DrawSphere(jitterOffset + movement.Position + new Vector2(0.5f, 0.5f), ressourceRadius);
         }
     }

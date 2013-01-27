@@ -38,16 +38,17 @@ public class RessourceConsumer
 
     public RessourceType Create()
     {
-        List<RessourceType> ressources = new List<RessourceType>();
-        foreach(var res in Enum.GetValues(typeof(RessourceType)))
-        {
-            if (EnumHelper.Has(createTypes, res))
-                ressources.Add((RessourceType)res);
-        }
+        //List<RessourceType> ressources = new List<RessourceType>();
+        //foreach(var res in Enum.GetValues(typeof(RessourceType)))
+        //{
+        //    if (EnumHelper.Has(createTypes, res))
+        //        ressources.Add((RessourceType)res);
+        //}
 
-        int randIndex = UnityEngine.Random.Range(0, ressources.Count+1);
-        RessourceType type = ressources[randIndex];
+        //int randIndex = UnityEngine.Random.Range(0, ressources.Count+1);
+        //RessourceType type = ressources[randIndex];
 
+        RessourceType type = createTypes;
         if (OnRessourceCreated != null) OnRessourceCreated(type);
 
         return type;
@@ -71,38 +72,11 @@ public class CellFlow : MonoBehaviour
                 Cell cell = worldGrid.getCell(x, y);
                 if (cell.typeIndex == mudTypeIndex)
                 {
-                    cell.hasGrass = true;
+                    cell.hasGrass = false;
                     Tree tree = new Tree(worldGrid, cell, new Vector2(x, y + 1));
                 }
             }
         }
-
-        //int mudTypeIndex = worldGrid.getCellTypeIndexByName("Mud");
-        //for (int x = 0; x < worldGrid.width; x++)
-        //{
-        //    for (int y = 0; y < worldGrid.height; y++)
-        //    {
-        //        Cell cell = worldGrid.getCell(x, y);
-        //        if (cell.typeIndex == mudTypeIndex)
-        //        {
-        //            RessourceConsumer ressourceConsumer = new RessourceConsumer();
-        //            ressourceConsumer.consumTypes = RessourceType.Green;
-        //            ressourceConsumer.OnRessourceConsumed += (type) =>
-        //                {
-        //                    int proba = 4;
-        //                    if (cell.hasGrass)
-        //                    {
-        //                        return UnityEngine.Random.Range(0, proba) == 0;
-        //                    }
-        //                    else
-        //                    {
-        //                        cell.hasGrass = true;
-        //                        return true;
-        //                    }
-        //                };
-        //        }
-        //    }
-        //}
     }
 
     void Update()
@@ -115,7 +89,7 @@ public class CellFlow : MonoBehaviour
             if (!isDrawing && Input.GetMouseButtonDown(0))
             {
                 Cell startCell = worldGrid.getCell(currentCellPos.X, currentCellPos.Y);
-               // if (startCell.isArtere || startCell.flow != CellFlowDirection.None)
+                if (startCell.isArtere || startCell.flow != CellFlowDirection.None)
                 {
                     //Start digging
                     isDrawing = true;
@@ -140,7 +114,7 @@ public class CellFlow : MonoBehaviour
                     Debug.Log("cell.type.canDig: " + cell.type.canDig);
 
                     //Dig one cell
-                    if ((cell.type.canDig || cell.isArtere /*|| cell.flow != CellFlowDirection.None*/) && UpdateFlow(lastCellPos, currentCellPos))
+                    if ((cell.type.canDig || cell.isArtere) && cell.type.digLevel <= worldGrid.heart.heartLevel && UpdateFlow(lastCellPos, currentCellPos))
                     {
                         lastCellPos = currentCellPos;
                         Debug.Log("Dig!");

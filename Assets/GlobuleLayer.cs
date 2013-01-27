@@ -9,13 +9,13 @@ public class GlobuleLayer : MonoBehaviour
 	
 	void Update()
 	{
-		foreach (Globule g in grid.globules)
-		{
-			Sprite s = new Sprite();
-			layer.sprites.Add(s);
+        //foreach (Globule g in grid.globules)
+        //{
+        //    Sprite s = new Sprite();
+        //    layer.sprites.Add(s);
 			
-			s.pos = g.movement.Position;
-			s.size = size;
-		}
+        //    s.pos = g.movement.Position;
+        //    s.size = size;
+        //}
 	}
 }

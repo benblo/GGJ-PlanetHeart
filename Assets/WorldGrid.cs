@@ -66,6 +66,8 @@ public class WorldGrid : MonoBehaviour
     internal List<Globule> globules = new List<Globule>();
     internal List<Tree> trees = new List<Tree>();
 
+    internal Heart heart;
+
 	public bool isInBounds( int x, int y )
 	{
 		return x >= 0 && x < width &&
@@ -133,6 +135,8 @@ public class WorldGrid : MonoBehaviour
 		initGrid();
 		
 		initMesh(mainMesh, ref mainUVs);
+
+        heart = new Heart(this, getCell(21, 31), new Vector2(21, 31));
 	}
 	
 	void initGrid()
@@ -263,6 +267,8 @@ public class WorldGrid : MonoBehaviour
 		
 		updateGlobules();
         UpdateTrees();
+
+        heart.Update();
 	}
 	
 	void updateGlobules()
@@ -435,7 +441,12 @@ public class WorldGrid : MonoBehaviour
 
         foreach (var tree in trees)
         {
-            if(tree.growthLevel > 0)
+            if (tree.growthLevel == tree.maxLevel)
+            {
+                Gizmos.color = Color.red;
+                Gizmos.DrawLine(tree.position, tree.position + new Vector2(0, tree.growthLevel + 0.2f));
+            }
+            else if (tree.growthLevel > 0)
             {
                 Gizmos.color = Color.blue;
                 Gizmos.DrawLine(tree.position, tree.position + new Vector2(0, tree.growthLevel + 0.2f));

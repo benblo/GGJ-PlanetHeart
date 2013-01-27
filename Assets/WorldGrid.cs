@@ -24,10 +24,10 @@ public class Cell
 	internal float amount = 1;
 	internal float lastSpawnTime;
 
-    internal bool isArtere = false;
-    internal CellFlowDirection flow;
+    public bool isArtere = false;
+    public CellFlowDirection flow;
 
-    internal bool hasGrass = false;
+    public bool hasGrass = false;
 
     internal RessourceConsumer ressourceConsumer = null;
 	
@@ -63,8 +63,8 @@ public class WorldGrid : MonoBehaviour
     public float particleSpeedMax = 1.1f;
 
     public List<Cell> grid;
-    public List<Globule> globules = new List<Globule>();
-    public List<Tree> trees = new List<Tree>();
+    internal List<Globule> globules = new List<Globule>();
+    internal List<Tree> trees = new List<Tree>();
 
 	public bool isInBounds( int x, int y )
 	{
@@ -248,6 +248,13 @@ public class WorldGrid : MonoBehaviour
 	
 	void Update()
 	{
+        if (Input.GetMouseButtonDown(2))
+        {
+            Vector2 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+            Debug.Log("Mouse position: " + (int)mousePos.x + "/" + (int)mousePos.y);
+            Debug.Log("Cell: " + ((int)mousePos.x + (int)mousePos.y * width));
+        }
+
 		if (editMode)
 			updateEditor();
 		

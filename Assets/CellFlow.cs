@@ -63,6 +63,20 @@ public class CellFlow : MonoBehaviour
 
     void Start()
     {
+        int mudTypeIndex = worldGrid.getCellTypeIndexByName("Mud");
+        for (int x = 0; x < worldGrid.width; x++)
+        {
+            for (int y = 0; y < worldGrid.height; y++)
+            {
+                Cell cell = worldGrid.getCell(x, y);
+                if (cell.typeIndex == mudTypeIndex)
+                {
+                    cell.hasGrass = true;
+                    Tree tree = new Tree(worldGrid, cell, new Vector2(x, y + 1));
+                }
+            }
+        }
+
         //int mudTypeIndex = worldGrid.getCellTypeIndexByName("Mud");
         //for (int x = 0; x < worldGrid.width; x++)
         //{

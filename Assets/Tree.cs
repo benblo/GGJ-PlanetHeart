@@ -10,7 +10,7 @@ public class Tree
     RessourceConsumer ressourceConsumer;
 
     public int ressourcesForGrowth = 3;
-    public int currentRessources = 0;
+    public int currentRessources;
     public int growthLevel = 0;
 
     public int maxLevel = 6;
@@ -54,6 +54,7 @@ public class Tree
                 return false;
 
             currentRessources++;
+
             return true;
         }
         return false;

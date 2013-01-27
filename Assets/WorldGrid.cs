@@ -40,6 +40,7 @@ public class CellType
 	public string name;
 	public Color color = Color.white;
 	public int atlasY;
+	public int atlasVarCount = 5;
 
 	public bool isResource;
     public RessourceType ressourceType;
@@ -126,7 +127,6 @@ public class WorldGrid : MonoBehaviour
 		initGrid();
 		
 		initMesh(mainMesh, ref mainUVs);
-		initMesh(frontMesh, ref frontUVs);
 	}
 	
 	void initGrid()
@@ -143,7 +143,7 @@ public class WorldGrid : MonoBehaviour
 		{
 			Cell c = grid[i];
 			c.type = cellTypes[c.typeIndex];
-			c.atlasX = UnityEngine.Random.Range(0, atlasVarCount);
+			c.atlasX = UnityEngine.Random.Range(0, c.type.atlasVarCount);
 		}
 	}
 	
@@ -161,8 +161,8 @@ public class WorldGrid : MonoBehaviour
 	}
 	
 
-	public Mesh mainMesh, frontMesh;
-	Vector2[] mainUVs, frontUVs;
+	public Mesh mainMesh;
+	Vector2[] mainUVs;
 
 	void initMesh( Mesh mesh, ref Vector2[] uvs )
 	{
@@ -219,8 +219,6 @@ public class WorldGrid : MonoBehaviour
 	
 	public int atlasWidth = 2;
 	public int atlasHeight = 2;
-	public int atlasVarCount = 2;
-	public int borderAtlasY;
 	
 	void updateMainUVs()
 	{
@@ -243,141 +241,12 @@ public class WorldGrid : MonoBehaviour
 		mainMesh.uv = mainUVs;
 	}
 	
-	void updateFrontUVs()
-	{
-		float atlasStepX = 1f / (float)atlasWidth;
-		float atlasStepY = 1f / (float)atlasHeight;
-		
-		int[] triangles = new int[width * height * 6];
-		int quadCount = 0;
-
-		for (int x = 1; x < width - 1; x++)
-		{
-			for (int y = 1; y < height - 1; y++)
-			{
-				int ic = x + y * width;
-				Cell cell = grid[ic];
-				
-				if ( cell.type.isResource )
-				{
-					continue;
-				}
-				
-				int sum = 0;
-				
-				if ( getCell(x - 1, y + 1).type.isResource )
-					sum += 1;
-				if ( getCell(x, y + 1).type.isResource )
-					sum += 2;
-				if ( getCell(x + 1, y + 1).type.isResource )
-					sum += 4;
-				if ( getCell(x - 1, y).type.isResource )
-					sum += 8;
-				if ( getCell(x + 1, y).type.isResource )
-					sum += 16;
-				if ( getCell(x - 1, y - 1).type.isResource )
-					sum += 32;
-				if ( getCell(x, y - 1).type.isResource )
-					sum += 64;
-				if ( getCell(x + 1, y - 1).type.isResource )
-					sum += 128;
-				
-				if (sum == 0)
-				{
-					continue;
-				}
-				
-				int iv = ic * 4;
-				int it = quadCount * 6;
-				
-				triangles[it + 0] = iv + 0;
-				triangles[it + 1] = iv + 1;
-				triangles[it + 2] = iv + 2;
-				triangles[it + 3] = iv + 2;
-				triangles[it + 4] = iv + 3;
-				triangles[it + 5] = iv + 0;
-				
-				quadCount++;
-				
-				//Debug.DrawLine(new Vector2(x, y), new Vector2(x + 1, y + 1));
-				//Debug.DrawLine(new Vector2(x, y + 1), new Vector2(x + 1, y));
-				
-				float ax = getBorderIndex(sum);
-				float ay = borderAtlasY;
-				frontUVs[iv + 0] = new Vector2(atlasStepX * ax		, atlasStepY * ay);
-				frontUVs[iv + 1] = new Vector2(atlasStepX * ax		, atlasStepY * (ay + 1));
-				frontUVs[iv + 2] = new Vector2(atlasStepX * (ax + 1), atlasStepY * (ay + 1));
-				frontUVs[iv + 3] = new Vector2(atlasStepX * (ax + 1), atlasStepY * ay);
-			}
-		}
-		
-		int[] curTriangles = new int[quadCount * 6];
-		System.Array.Copy(triangles, curTriangles, quadCount * 6);
-		frontMesh.triangles = curTriangles;
-		frontMesh.uv = frontUVs;
-	}
-	
-	int getBorderIndex( int sum )
-	{
-		switch (sum)
-		{
-		case 7:
-		case 3:
-		case 6:
-			return 0;
-		case 224:
-		case 96:
-		case 192:
-			return 1;
-		case 41:
-		case 9:
-		case 40:
-			return 2;
-		case 148:
-		case 20:
-		case 144:
-			return 3;
-		case 1:
-			return 4;
-		case 244:
-		case 208:
-		case 240:
-		case 212:
-			return 5;
-		case 4:
-			return 6;
-		case 233:
-		case 104:
-		case 105:
-		case 232:
-			return 7;
-		case 32:
-			return 8;
-		case 151:
-		case 22:
-		case 23:
-		case 150:
-			return 9;
-		case 128:
-			return 10;
-		case 47:
-		case 11:
-		case 15:
-		case 43:
-			return 11;
-		default:
-			//Debug.Log(sum);
-			return 13; // error
-		}
-	}
-	
 	void Update()
 	{
 		if (editMode)
 			updateEditor();
 		
 		updateMainUVs();
-		updateFrontUVs();
 		
 		updateGlobules();
 	}

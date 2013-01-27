@@ -105,7 +105,7 @@ public class Heart
         cell.flow = CellFlowDirection.Up;
         cell.isArtere = true;
 		
-		
+		worldGrid.artereLayer.Reset();
 		worldGrid.musicControl.SetupLevel1();
     }
 
@@ -150,7 +150,7 @@ public class Heart
 
         globuleToSpawn = 10;
 		
-		
+		worldGrid.artereLayer.Reset();
 		worldGrid.musicControl.SetupLevel2();
     }
 

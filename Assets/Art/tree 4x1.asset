@@ -10,24 +10,24 @@ Mesh:
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
-    indexCount: 0
+    indexCount: 18
     topology: 0
     firstVertex: 0
-    vertexCount: 0
+    vertexCount: 12
     localAABB:
-      m_Center: {x: 0, y: 0, z: 0}
-      m_Extent: {x: 0, y: 0, z: 0}
+      m_Center: {x: 8, y: 47, z: 0}
+      m_Extent: {x: 2, y: 2, z: 0}
   m_MeshCompression: 0
   m_StreamCompression: 0
   m_IsReadable: 1
   m_KeepVertices: 1
   m_KeepIndices: 1
-  m_IndexBuffer: 
+  m_IndexBuffer: 000001000200020003000000040005000600060007000400080009000a000a000b000800
   m_Skin: []
   m_BindPose: []
   m_VertexData:
-    m_CurrentChannels: 7
-    m_VertexCount: 0
+    m_CurrentChannels: 15
+    m_VertexCount: 12
     m_Channels:
     - stream: 0
       offset: 0
@@ -42,9 +42,9 @@ Mesh:
       format: 2
       dimension: 1
     - stream: 0
-      offset: 0
+      offset: 28
       format: 0
-      dimension: 0
+      dimension: 2
     - stream: 0
       offset: 0
       format: 0
@@ -54,9 +54,9 @@ Mesh:
       format: 0
       dimension: 0
     m_Streams:
-    - channelMask: 7
+    - channelMask: 15
       offset: 0
-      stride: 28
+      stride: 36
       dividerOp: 0
       frequency: 0
     - channelMask: 0
@@ -74,8 +74,8 @@ Mesh:
       stride: 0
       dividerOp: 0
       frequency: 0
-    m_DataSize: 0
-    _typelessdata: 
+    m_DataSize: 432
+    _typelessdata: 0000c04000003442000000000000000000000000000080bfefbeadde00000000000000000000c04000004442000000000000000000000000000080bfefbeadde000000000000803e0000e04000004442000000000000000000000000000080bfefbeadde0000803d0000803e0000e04000003442000000000000000000000000000080bfefbeadde0000803d000000000000004100003442000000000000000000000000000080bfefbeadde00000000000000000000004100004442000000000000000000000000000080bfefbeadde000000000000803e0000104100004442000000000000000000000000000080bfefbeadde0000803d0000803e0000104100003442000000000000000000000000000080bfefbeadde0000803d000000000000104100003442000000000000000000000000000080bfefbeadde00000000000000000000104100004442000000000000000000000000000080bfefbeadde000000000000803e0000204100004442000000000000000000000000000080bfefbeadde0000803d0000803e0000204100003442000000000000000000000000000080bfefbeadde0000803d00000000
   m_CompressedMesh:
     m_Vertices:
       m_NumItems: 0
@@ -132,7 +132,7 @@ Mesh:
       m_Data: 
       m_BitSize: 0
   m_LocalAABB:
-    m_Center: {x: 0, y: 0, z: 0}
-    m_Extent: {x: 0, y: 0, z: 0}
+    m_Center: {x: 8, y: 47, z: 0}
+    m_Extent: {x: 2, y: 2, z: 0}
   m_MeshUsageFlags: 0
   m_MeshOptimized: 0

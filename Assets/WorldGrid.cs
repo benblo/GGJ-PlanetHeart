@@ -130,6 +130,7 @@ public class WorldGrid : MonoBehaviour
 	
 	public CellType[] cellTypes;
 	public LifeLayer lifeLayer;
+    public ArtereLayer artereLayer;
 	
 	void Awake()
 	{
@@ -518,5 +519,4 @@ public class WorldGrid : MonoBehaviour
             return new Vector3(1, 0);
 
         return Vector3.zero;
-    }
-}
+    }}

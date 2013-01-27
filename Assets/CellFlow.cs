@@ -158,24 +158,28 @@ public class CellFlow : MonoBehaviour
         {
             toCell.isArtere = true;
             fromCell.flow = fromCell.flow | CellFlowDirection.Up;
+            worldGrid.artereLayer.Reset();
             return true;
         }
         else if (from.X == to.X && from.Y == to.Y + 1 && !EnumHelper.Has(toCell.flow, CellFlowDirection.Up))
         {
             toCell.isArtere = true;
             fromCell.flow = fromCell.flow | CellFlowDirection.Down;
+            worldGrid.artereLayer.Reset();
             return true;
         }
         else if (from.X == to.X + 1 && from.Y == to.Y && !EnumHelper.Has(toCell.flow, CellFlowDirection.Right))
         {
             toCell.isArtere = true;
             fromCell.flow = fromCell.flow | CellFlowDirection.Left;
+            worldGrid.artereLayer.Reset();
             return true;
         }
         else if (from.X == to.X - 1 && from.Y == to.Y && !EnumHelper.Has(toCell.flow, CellFlowDirection.Left))
         {
             toCell.isArtere = true;
             fromCell.flow = fromCell.flow | CellFlowDirection.Right;
+            worldGrid.artereLayer.Reset();
             return true;
         }
         return false;

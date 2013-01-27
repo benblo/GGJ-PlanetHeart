@@ -18,6 +18,16 @@ public struct Point
     {
         return p1.X != p2.X || p1.Y != p2.Y;
     }
+	
+	public override bool Equals (object obj)
+	{
+		return base.Equals (obj);
+	}
+	
+	public override int GetHashCode ()
+	{
+		return base.GetHashCode ();
+	}
 }
 
 [System.Serializable]
@@ -61,19 +71,23 @@ public class CellFlow : MonoBehaviour
 
     public bool isDrawing;
     public Point lastCellPos;
-
+	
+	public int turnMudToGrassXMin, turnMudToGrassXMax;
+	public int turnMudToGrassYMin, turnMudToGrassYMax;
+	
     void Start()
     {
         int mudTypeIndex = worldGrid.getCellTypeIndexByName("Mud");
-        for (int x = 0; x < worldGrid.width; x++)
+		
+        for (int x = turnMudToGrassXMin; x < turnMudToGrassXMax; x++)
         {
-            for (int y = 0; y < worldGrid.height; y++)
+            for (int y = turnMudToGrassYMin; y < turnMudToGrassYMax; y++)
             {
                 Cell cell = worldGrid.getCell(x, y);
                 if (cell.typeIndex == mudTypeIndex)
                 {
                     cell.hasGrass = false;
-                    Tree tree = new Tree(worldGrid, cell, new Vector2(x, y + 1));
+                    new Tree(worldGrid, cell, new Vector2(x, y + 1));
                 }
             }
         }
@@ -106,7 +120,7 @@ public class CellFlow : MonoBehaviour
                 //Continue digging
                 if (currentCellPos != lastCellPos)
                 {
-                    Cell lastCell = worldGrid.getCell(lastCellPos.X, lastCellPos.Y);
+                    //Cell lastCell = worldGrid.getCell(lastCellPos.X, lastCellPos.Y);
                     Cell cell = worldGrid.getCell(currentCellPos.X, currentCellPos.Y);
 
                     Debug.Log("Try Digging");
@@ -135,7 +149,7 @@ public class CellFlow : MonoBehaviour
     /// <returns></returns>
     private bool UpdateFlow(Point from, Point to)
     {
-        int bloodTypeIndex = worldGrid.getCellTypeIndexByName("Blood");
+        //int bloodTypeIndex = worldGrid.getCellTypeIndexByName("Blood");
 
         Cell fromCell = worldGrid.getCell(from.X, from.Y);
         Cell toCell = worldGrid.getCell(to.X, to.Y);

@@ -92,7 +92,7 @@ public class Globule
 
     public virtual void OnChangeCell(Cell cell, int x, int y)
     {
-        var dirs = new CellFlowDirection[] { CellFlowDirection.Right, CellFlowDirection.Up, CellFlowDirection.Left, CellFlowDirection.Down };
+        //var dirs = new CellFlowDirection[] { CellFlowDirection.Right, CellFlowDirection.Up, CellFlowDirection.Left, CellFlowDirection.Down };
 
         if (type == RessourceType.None)
         {
@@ -150,7 +150,7 @@ public class Globule
         cell.hasGrass = true;
         type = RessourceType.None;
 
-        Tree tree = new Tree(worldGrid, cell, new Vector2(x, y+1));
+        new Tree(worldGrid, cell, new Vector2(x, y+1));
     }
 
     public void DrawGizmo()

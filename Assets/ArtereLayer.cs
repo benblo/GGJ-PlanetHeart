@@ -46,7 +46,7 @@ public class ArtereLayer : MonoBehaviour
 
                     Sprite s = new Sprite();
                     s.atlasPos.x = index;
-                    s.atlasPos.y = 1;
+                    s.atlasPos.y = 0;
                     s.pos = new Vector2(x, y) + new Vector2(0.5f, 0.5f);
                     s.size = new Vector2(1, 1);
 

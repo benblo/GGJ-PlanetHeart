@@ -22,7 +22,7 @@ public class Cell
 	internal int atlasX;
 	
 	internal float amount = 1;
-	internal float lastSpawnTime;
+	//internal float lastSpawnTime;
 
     public bool isArtere = false;
     public CellFlowDirection flow;

@@ -72,25 +72,39 @@ public class CellFlow : MonoBehaviour
     public bool isDrawing;
     public Point lastCellPos;
 	
-	public int turnMudToGrassXMin, turnMudToGrassXMax;
-	public int turnMudToGrassYMin, turnMudToGrassYMax;
+	[System.Serializable]
+	public class LifeZone
+	{
+		public int xMin, xMax;
+		public int yMin, yMax;
+		public bool maxOut;
+	}
+	
+	public LifeZone[] lifeZones;
 	
     void Start()
     {
         int mudTypeIndex = worldGrid.getCellTypeIndexByName("Mud");
 		
-        for (int x = turnMudToGrassXMin; x < turnMudToGrassXMax; x++)
-        {
-            for (int y = turnMudToGrassYMin; y < turnMudToGrassYMax; y++)
-            {
-                Cell cell = worldGrid.getCell(x, y);
-                if (cell.typeIndex == mudTypeIndex)
-                {
-                    cell.hasGrass = false;
-                    new Tree(worldGrid, cell, new Vector2(x, y + 1));
-                }
-            }
-        }
+		foreach (LifeZone zone in lifeZones)
+		{
+	        for (int x = zone.xMin; x < zone.xMax; x++)
+	        {
+	            for (int y = zone.yMin; y < zone.yMax; y++)
+	            {
+	                Cell cell = worldGrid.getCell(x, y);
+	                if (cell.typeIndex == mudTypeIndex)
+	                {
+	                    cell.hasGrass = false;
+	                    Tree tree = new Tree(worldGrid, cell, new Vector2(x, y + 1));
+						if (zone.maxOut)
+						{
+							tree.growthLevel = tree.maxLevel;
+						}
+	                }
+	            }
+	        }
+		}
     }
 
     void Update()
@@ -100,7 +114,7 @@ public class CellFlow : MonoBehaviour
         {
             Point currentCellPos = new Point() { X = (int)mousePos.x, Y = (int)mousePos.y };
 
-            if (!isDrawing && Input.GetMouseButtonDown(0))
+            if (!isDrawing && Input.GetMouseButton(0))
             {
                 Cell startCell = worldGrid.getCell(currentCellPos.X, currentCellPos.Y);
                 if (startCell.isArtere || startCell.flow != CellFlowDirection.None)
@@ -123,15 +137,17 @@ public class CellFlow : MonoBehaviour
                     //Cell lastCell = worldGrid.getCell(lastCellPos.X, lastCellPos.Y);
                     Cell cell = worldGrid.getCell(currentCellPos.X, currentCellPos.Y);
 
-                    Debug.Log("Try Digging");
-                    Debug.Log("cell.flow: " + cell.flow);
-                    Debug.Log("cell.type.canDig: " + cell.type.canDig);
+                    //Debug.Log("Try Digging");
+                    //Debug.Log("cell.flow: " + cell.flow);
+                    //Debug.Log("cell.type.canDig: " + cell.type.canDig);
 
                     //Dig one cell
-                    if ((cell.type.canDig || cell.isArtere) && cell.type.digLevel <= worldGrid.heart.heartLevel && UpdateFlow(lastCellPos, currentCellPos))
+                    if ( (cell.type.canDig || cell.isArtere) &&
+						 cell.type.digLevel <= worldGrid.heart.heartLevel &&
+						 UpdateFlow(lastCellPos, currentCellPos) )
                     {
                         lastCellPos = currentCellPos;
-                        Debug.Log("Dig!");
+                        //Debug.Log("Dig!");
                     }
 
                     if (cell.flow != CellFlowDirection.None)

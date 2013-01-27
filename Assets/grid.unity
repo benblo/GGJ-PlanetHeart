@@ -6127,8 +6127,8 @@ MonoBehaviour:
     flow: 0
     hasGrass: 0
   - typeIndex: 0
-    isArtere: 0
-    flow: 0
+    isArtere: 1
+    flow: 2
     hasGrass: 0
   - typeIndex: 0
     isArtere: 0
@@ -7890,11 +7890,11 @@ MonoBehaviour:
     isArtere: 0
     flow: 0
     hasGrass: 0
-  - typeIndex: 1
+  - typeIndex: 4
     isArtere: 0
     flow: 0
     hasGrass: 0
-  - typeIndex: 1
+  - typeIndex: 4
     isArtere: 0
     flow: 0
     hasGrass: 0
@@ -8086,11 +8086,11 @@ MonoBehaviour:
     isArtere: 0
     flow: 0
     hasGrass: 0
-  - typeIndex: 1
+  - typeIndex: 4
     isArtere: 0
     flow: 0
     hasGrass: 0
-  - typeIndex: 1
+  - typeIndex: 4
     isArtere: 0
     flow: 0
     hasGrass: 0
@@ -9318,7 +9318,7 @@ MonoBehaviour:
     isArtere: 0
     flow: 0
     hasGrass: 0
-  - typeIndex: 8
+  - typeIndex: 0
     isArtere: 0
     flow: 0
     hasGrass: 0
@@ -9406,11 +9406,11 @@ MonoBehaviour:
   atlasWidth: 16
   atlasHeight: 32
   editMode: 0
-  brushType: 0
+  brushType: 4
   drawGarry: 0
   drawGizmos: 0
   drawGrid: 0
-  drawCells: 0
+  drawCells: 1
   debugCurCell: 0
   debugText: 
 --- !u!4 &368921885
@@ -9437,10 +9437,17 @@ MonoBehaviour:
   m_Name: 
   worldGrid: {fileID: 368921884}
   isDrawing: 0
-  turnMudToGrassXMin: 0
-  turnMudToGrassXMax: 40
-  turnMudToGrassYMin: 42
-  turnMudToGrassYMax: 50
+  lifeZones:
+  - xMin: 0
+    xMax: 11
+    yMin: 40
+    yMax: 55
+    maxOut: 1
+  - xMin: 19
+    xMax: 40
+    yMin: 40
+    yMax: 55
+    maxOut: 0
 --- !u!1 &394200450
 GameObject:
   m_ObjectHideFlags: 0
@@ -10203,6 +10210,10 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 11400002, guid: 4d9b14afc6b145e48a12b171b5925ad1, type: 2}
+      propertyPath: lifeZones.Array.size
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 4d9b14afc6b145e48a12b171b5925ad1, type: 2}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -10246,6 +10257,58 @@ Prefab:
     - target: {fileID: 11400002, guid: 4d9b14afc6b145e48a12b171b5925ad1, type: 2}
       propertyPath: turnMudToGrassXMax
       value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 4d9b14afc6b145e48a12b171b5925ad1, type: 2}
+      propertyPath: grid.Array.data[1455].isArtere
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 4d9b14afc6b145e48a12b171b5925ad1, type: 2}
+      propertyPath: grid.Array.data[1455].flow
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 4d9b14afc6b145e48a12b171b5925ad1, type: 2}
+      propertyPath: editMode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 4d9b14afc6b145e48a12b171b5925ad1, type: 2}
+      propertyPath: drawGizmos
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 4d9b14afc6b145e48a12b171b5925ad1, type: 2}
+      propertyPath: drawCells
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400002, guid: 4d9b14afc6b145e48a12b171b5925ad1, type: 2}
+      propertyPath: lifeZones.Array.data[0].maxOut
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400002, guid: 4d9b14afc6b145e48a12b171b5925ad1, type: 2}
+      propertyPath: lifeZones.Array.data[0].xMax
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400002, guid: 4d9b14afc6b145e48a12b171b5925ad1, type: 2}
+      propertyPath: lifeZones.Array.data[0].yMin
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400002, guid: 4d9b14afc6b145e48a12b171b5925ad1, type: 2}
+      propertyPath: lifeZones.Array.data[0].yMax
+      value: 55
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400002, guid: 4d9b14afc6b145e48a12b171b5925ad1, type: 2}
+      propertyPath: lifeZones.Array.data[1].xMax
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400002, guid: 4d9b14afc6b145e48a12b171b5925ad1, type: 2}
+      propertyPath: lifeZones.Array.data[1].xMin
+      value: 19
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400002, guid: 4d9b14afc6b145e48a12b171b5925ad1, type: 2}
+      propertyPath: lifeZones.Array.data[1].yMin
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400002, guid: 4d9b14afc6b145e48a12b171b5925ad1, type: 2}
+      propertyPath: lifeZones.Array.data[1].yMax
+      value: 55
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 4d9b14afc6b145e48a12b171b5925ad1, type: 2}

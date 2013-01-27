@@ -17,8 +17,13 @@ public class MusicControl : MonoBehaviour
 	public void SetupLevel2()
 	{
 		Debug.Log("SetupLevel2");
-		//StartCoroutine( switchMusic(musicLevel1, musicLevel2) );
 		StartCoroutine( switchMusic(musicLevel0, musicLevel1) );
+	}
+	
+	public void SetupLevel3()
+	{
+		Debug.Log("SetupLevel2");
+		StartCoroutine( switchMusic(musicLevel1, musicLevel2) );
 	}
 	
 	IEnumerator switchMusic( AudioSource from, AudioSource to )

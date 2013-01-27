@@ -5864,8 +5864,8 @@ MonoBehaviour:
     flow: 0
     hasGrass: 0
   - typeIndex: 0
-    isArtere: 0
-    flow: 0
+    isArtere: 1
+    flow: 2
     hasGrass: 0
   - typeIndex: 0
     isArtere: 0
@@ -7627,11 +7627,11 @@ MonoBehaviour:
     isArtere: 0
     flow: 0
     hasGrass: 0
-  - typeIndex: 1
+  - typeIndex: 4
     isArtere: 0
     flow: 0
     hasGrass: 0
-  - typeIndex: 1
+  - typeIndex: 4
     isArtere: 0
     flow: 0
     hasGrass: 0
@@ -7823,11 +7823,11 @@ MonoBehaviour:
     isArtere: 0
     flow: 0
     hasGrass: 0
-  - typeIndex: 1
+  - typeIndex: 4
     isArtere: 0
     flow: 0
     hasGrass: 0
-  - typeIndex: 1
+  - typeIndex: 4
     isArtere: 0
     flow: 0
     hasGrass: 0
@@ -9055,7 +9055,7 @@ MonoBehaviour:
     isArtere: 0
     flow: 0
     hasGrass: 0
-  - typeIndex: 8
+  - typeIndex: 0
     isArtere: 0
     flow: 0
     hasGrass: 0
@@ -9142,12 +9142,12 @@ MonoBehaviour:
   mainMesh: {fileID: 4300000, guid: 07b529e5fda27f14da973e640fac5484, type: 2}
   atlasWidth: 16
   atlasHeight: 32
-  editMode: 0
-  brushType: 0
+  editMode: 1
+  brushType: 4
   drawGarry: 0
-  drawGizmos: 0
+  drawGizmos: 1
   drawGrid: 0
-  drawCells: 0
+  drawCells: 1
   debugCurCell: 0
   debugText: 
 --- !u!114 &11400002
@@ -9163,7 +9163,7 @@ MonoBehaviour:
   worldGrid: {fileID: 11400000}
   isDrawing: 0
   turnMudToGrassXMin: 0
-  turnMudToGrassXMax: 12
+  turnMudToGrassXMax: 40
   turnMudToGrassYMin: 42
   turnMudToGrassYMax: 50
 --- !u!1001 &100100000

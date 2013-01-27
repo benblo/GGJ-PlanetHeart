@@ -77,6 +77,10 @@ public class Heart
         consumerCell.ressourceConsumer = ressourceConsumer;
 
         Cell cell;
+        cell = worldGrid.getCell(20, 35);
+        cell.flow = CellFlowDirection.Down;
+        cell.isArtere = true;
+
         cell = worldGrid.getCell(20, 34);
         cell.flow = CellFlowDirection.Down;
         cell.isArtere = true;
@@ -120,6 +124,10 @@ public class Heart
         consumerCell.ressourceConsumer = ressourceConsumer;
 
         Cell cell;
+        cell = worldGrid.getCell(20, 27);
+        cell.flow = CellFlowDirection.Up;
+        cell.isArtere = true;
+
         cell = worldGrid.getCell(20, 28);
         cell.flow = CellFlowDirection.Up;
         cell.isArtere = true;
@@ -152,6 +160,11 @@ public class Heart
 		
 		worldGrid.artereLayer.Reset();
 		worldGrid.musicControl.SetupLevel2();
+    }
+
+    public void SetupLevel3()
+    {
+		worldGrid.musicControl.SetupLevel3();
     }
 
     public void SpawnGlobule(Vector2 pos)

@@ -26,6 +26,10 @@ public class Cell
 
     internal bool isArtere = false;
     internal CellFlowDirection flow;
+
+    internal bool hasGrass = false;
+
+    internal RessourceConsumer ressourceConsumer = null;
 	
 	internal Color color
 	{
@@ -60,6 +64,7 @@ public class WorldGrid : MonoBehaviour
 
     public List<Cell> grid;
     public List<Globule> globules = new List<Globule>();
+    public List<Tree> trees = new List<Tree>();
 
 	public bool isInBounds( int x, int y )
 	{
@@ -249,6 +254,7 @@ public class WorldGrid : MonoBehaviour
 		updateMainUVs();
 		
 		updateGlobules();
+        UpdateTrees();
 	}
 	
 	void updateGlobules()
@@ -275,6 +281,14 @@ public class WorldGrid : MonoBehaviour
             globule.UpdateMovement();
         }
 	}
+
+    void UpdateTrees()
+    {
+        foreach (var tree in trees)
+        {
+            tree.Update();
+        }
+    }
 	
 
 	// EDITOR CRAP
@@ -411,6 +425,15 @@ public class WorldGrid : MonoBehaviour
             glob.DrawGizmo();
         }
 
+        foreach (var tree in trees)
+        {
+            if(tree.growthLevel > 0)
+            {
+                Gizmos.color = Color.blue;
+                Gizmos.DrawLine(tree.position, tree.position + new Vector2(0, tree.growthLevel + 0.2f));
+            }
+        }
+
         for (int x = 0; x < width; x++)
         {
             for (int y = 0; y < height; y++)
@@ -419,6 +442,15 @@ public class WorldGrid : MonoBehaviour
 
                 Gizmos.color = cell.color;
                 DrawFlowArrows(cell, x, y);
+
+                if(cell.ressourceConsumer != null)
+                {
+                    float radius = 0.2f;
+                    Vector3 cellCenter = new Vector2(x, y) + new Vector2(0.5f, 0.5f);
+                    cellCenter.z = -2;
+                    Gizmos.color = Color.white;
+                    Gizmos.DrawWireSphere(cellCenter, radius);
+                }
             }
         }
     }

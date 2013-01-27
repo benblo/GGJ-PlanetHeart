@@ -2,10 +2,12 @@ using UnityEngine;
 using System.Collections;
 
 [System.Serializable]
+[System.Flags]
 public enum RessourceType
 {
-    None,
-    Yellow,
+    None = 0,
+    Green = 1,
+    Blue = 2,
 }
 
 [System.Serializable]
@@ -92,45 +94,55 @@ public class Globule
 
         if (type == RessourceType.None)
         {
-            foreach (var neightbourCell in worldGrid.getNeighbourCell(x, y))
+            foreach (var neighbourCell in worldGrid.getNeighbourCell(x, y))
             {
-                Debug.Log("Neighbour: " + neightbourCell.type.ressourceType);
-                if (neightbourCell.type.ressourceType != RessourceType.None)
+                if (neighbourCell.type.ressourceType != RessourceType.None)
                 {
-                    type = neightbourCell.type.ressourceType;
+                    type = neighbourCell.type.ressourceType;
                     break;
                 }
             }                
         }
-        else if (type == RessourceType.Yellow)
+        else if (type == RessourceType.Green)
         {
             int mudTypeIndex = worldGrid.getCellTypeIndexByName("Mud");
-            int grassTypeIndex = worldGrid.getCellTypeIndexByName("Grass");
 
-            Cell neighbourCell = worldGrid.getCell(x, y + 1);
-            if (neighbourCell.typeIndex == mudTypeIndex)
-                ChangeMudToGrass(grassTypeIndex, neighbourCell);
+            foreach (var neighbourCell in worldGrid.getNeighbourCell(x, y))
+            {
+                if (neighbourCell.typeIndex == mudTypeIndex && !neighbourCell.hasGrass)
+                    ChangeMudToGrass(neighbourCell, x, y);
 
-            neighbourCell = worldGrid.getCell(x, y - 1);
-            if (neighbourCell.typeIndex == mudTypeIndex)
-                ChangeMudToGrass(grassTypeIndex, neighbourCell);
 
-            neighbourCell = worldGrid.getCell(x + 1, y);
-            if (neighbourCell.typeIndex == mudTypeIndex)
-                ChangeMudToGrass(grassTypeIndex, neighbourCell);
+            }
+        }
 
-            neighbourCell = worldGrid.getCell(x - 1, y);
-            if (neighbourCell.typeIndex == mudTypeIndex)
-                ChangeMudToGrass(grassTypeIndex, neighbourCell);
+        if (type != RessourceType.None)
+        {
+            foreach (var neighbourCell in worldGrid.getNeighbourCell(x, y))
+            {
+                if (neighbourCell.ressourceConsumer != null)
+                {
+                    if (neighbourCell.ressourceConsumer.consumTypes != RessourceType.None && EnumHelper.Has(neighbourCell.ressourceConsumer.consumTypes, type))
+                    {
+                        bool consumed = neighbourCell.ressourceConsumer.Consume(type);
+                        if (consumed)
+                        {
+                            type = RessourceType.None;
+                            break;
+                        }
+                    }
+                }
+            }
         }
     }
 
-    private void ChangeMudToGrass(int grassTypeIndex, Cell cell)
+    private void ChangeMudToGrass(Cell cell, int x, int y)
     {
-        //cell.type = worldGrid.cellTypes[grassTypeIndex];
-        //cell.typeIndex = grassTypeIndex;
-
+        //Spawn grass sprite
+        cell.hasGrass = true;
         type = RessourceType.None;
+
+        Tree tree = new Tree(worldGrid, cell, new Vector2(x, y+1));
     }
 
     public void DrawGizmo()
@@ -143,9 +155,14 @@ public class Globule
         Gizmos.color = Color.white;
         Gizmos.DrawWireSphere(jitterOffset + movement.Position + new Vector2(0.5f, 0.5f), collectorRadius);
 
-        if (type == RessourceType.Yellow)
+        if (type == RessourceType.Green)
         {
-            Gizmos.color = Color.yellow;
+            Gizmos.color = Color.green;
+            Gizmos.DrawSphere(jitterOffset + movement.Position + new Vector2(0.5f, 0.5f), ressourceRadius);
+        }
+        else if (type == RessourceType.Blue)
+        {
+            Gizmos.color = Color.blue;
             Gizmos.DrawSphere(jitterOffset + movement.Position + new Vector2(0.5f, 0.5f), ressourceRadius);
         }
     }

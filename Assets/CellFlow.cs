@@ -1,6 +1,7 @@
 using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
+using System;
 
 [System.Serializable]
 public struct Point
@@ -19,6 +20,40 @@ public struct Point
     }
 }
 
+[System.Serializable]
+public class RessourceConsumer
+{
+    public delegate bool RessourceEvent(RessourceType type);
+    public event RessourceEvent OnRessourceConsumed;
+    public event RessourceEvent OnRessourceCreated;
+
+    public RessourceType consumTypes;
+    public RessourceType createTypes;
+
+    public bool Consume(RessourceType type)
+    {
+        if (OnRessourceConsumed != null) return OnRessourceConsumed(type);
+        return true;
+    }
+
+    public RessourceType Create()
+    {
+        List<RessourceType> ressources = new List<RessourceType>();
+        foreach(var res in Enum.GetValues(typeof(RessourceType)))
+        {
+            if (EnumHelper.Has(createTypes, res))
+                ressources.Add((RessourceType)res);
+        }
+
+        int randIndex = UnityEngine.Random.Range(0, ressources.Count+1);
+        RessourceType type = ressources[randIndex];
+
+        if (OnRessourceCreated != null) OnRessourceCreated(type);
+
+        return type;
+    }
+}
+
 public class CellFlow : MonoBehaviour
 {
     public WorldGrid worldGrid;
@@ -28,6 +63,32 @@ public class CellFlow : MonoBehaviour
 
     void Start()
     {
+        //int mudTypeIndex = worldGrid.getCellTypeIndexByName("Mud");
+        //for (int x = 0; x < worldGrid.width; x++)
+        //{
+        //    for (int y = 0; y < worldGrid.height; y++)
+        //    {
+        //        Cell cell = worldGrid.getCell(x, y);
+        //        if (cell.typeIndex == mudTypeIndex)
+        //        {
+        //            RessourceConsumer ressourceConsumer = new RessourceConsumer();
+        //            ressourceConsumer.consumTypes = RessourceType.Green;
+        //            ressourceConsumer.OnRessourceConsumed += (type) =>
+        //                {
+        //                    int proba = 4;
+        //                    if (cell.hasGrass)
+        //                    {
+        //                        return UnityEngine.Random.Range(0, proba) == 0;
+        //                    }
+        //                    else
+        //                    {
+        //                        cell.hasGrass = true;
+        //                        return true;
+        //                    }
+        //                };
+        //        }
+        //    }
+        //}
     }
 
     void Update()

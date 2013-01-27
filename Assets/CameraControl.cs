@@ -3,9 +3,9 @@ using System.Collections;
 
 public class CameraControl : MonoBehaviour
 {
-    public int cameraSize;
-    public int minCameraSize = 8;
-    public int maxCameraSize = 20;
+    public float cameraSize;
+    public float minCameraSize = 8;
+    public float maxCameraSize = 20;
 
     public int horizontalScrollingMax;
     public int upwardScrollingMax; 
@@ -72,7 +72,11 @@ public class CameraControl : MonoBehaviour
         }
 
         scrolling = scrolling * smooth + (1 - smooth) * desiredScrolling;
-        Camera.main.transform.position = scrolling;
+		Vector3 pos = Camera.main.transform.position;
+		if (horizontalScrollingMax > 0)
+			pos.x = scrolling.x;
+		pos.y = scrolling.y;
+        Camera.main.transform.position = pos;
 
     }
 }

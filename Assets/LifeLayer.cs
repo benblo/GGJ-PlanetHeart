@@ -36,8 +36,9 @@ public class LifeLayer : MonoBehaviour
 			
 			sprite.atlasPos.x = type.atlasX0 + tree.growthLevel;
 			
-			float cursor = ((Time.time + tree.animOffset) % playRate) / playRate;
-			sprite.atlasPos.y = type.atlasY0 + Mathf.FloorToInt(type.animCount * cursor);
+			//float cursor = ((Time.time + tree.animOffset) % playRate) / playRate;
+			//sprite.atlasPos.y = type.atlasY0 + Mathf.FloorToInt(type.animCount * cursor);
+			sprite.atlasPos.y = type.atlasY0;
 		}
 	}
 }

@@ -5372,180 +5372,16 @@ MonoBehaviour:
     flow: 0
     hasGrass: 0
   - typeIndex: 3
-    isArtere: 0
-    flow: 0
+    isArtere: 1
+    flow: 8
     hasGrass: 0
   - typeIndex: 3
-    isArtere: 0
-    flow: 0
+    isArtere: 1
+    flow: 8
     hasGrass: 0
   - typeIndex: 3
-    isArtere: 0
-    flow: 0
-    hasGrass: 0
-  - typeIndex: 3
-    isArtere: 0
-    flow: 0
-    hasGrass: 0
-  - typeIndex: 0
-    isArtere: 0
-    flow: 0
-    hasGrass: 0
-  - typeIndex: 0
-    isArtere: 0
-    flow: 0
-    hasGrass: 0
-  - typeIndex: 0
-    isArtere: 0
-    flow: 0
-    hasGrass: 0
-  - typeIndex: 0
-    isArtere: 0
-    flow: 0
-    hasGrass: 0
-  - typeIndex: 0
-    isArtere: 0
-    flow: 0
-    hasGrass: 0
-  - typeIndex: 0
-    isArtere: 0
-    flow: 0
-    hasGrass: 0
-  - typeIndex: 0
-    isArtere: 0
-    flow: 0
-    hasGrass: 0
-  - typeIndex: 0
-    isArtere: 0
-    flow: 0
-    hasGrass: 0
-  - typeIndex: 0
-    isArtere: 0
-    flow: 0
-    hasGrass: 0
-  - typeIndex: 0
-    isArtere: 0
-    flow: 0
-    hasGrass: 0
-  - typeIndex: 0
-    isArtere: 0
-    flow: 0
-    hasGrass: 0
-  - typeIndex: 0
-    isArtere: 0
-    flow: 0
-    hasGrass: 0
-  - typeIndex: 0
-    isArtere: 0
-    flow: 0
-    hasGrass: 0
-  - typeIndex: 0
-    isArtere: 0
-    flow: 0
-    hasGrass: 0
-  - typeIndex: 0
-    isArtere: 0
-    flow: 0
-    hasGrass: 0
-  - typeIndex: 0
-    isArtere: 0
-    flow: 0
-    hasGrass: 0
-  - typeIndex: 3
-    isArtere: 0
-    flow: 0
-    hasGrass: 0
-  - typeIndex: 3
-    isArtere: 0
-    flow: 0
-    hasGrass: 0
-  - typeIndex: 1
-    isArtere: 0
-    flow: 0
-    hasGrass: 0
-  - typeIndex: 1
-    isArtere: 0
-    flow: 0
-    hasGrass: 0
-  - typeIndex: 1
-    isArtere: 0
-    flow: 0
-    hasGrass: 0
-  - typeIndex: 1
-    isArtere: 0
-    flow: 0
-    hasGrass: 0
-  - typeIndex: 1
-    isArtere: 0
-    flow: 0
-    hasGrass: 0
-  - typeIndex: 1
-    isArtere: 0
-    flow: 0
-    hasGrass: 0
-  - typeIndex: 1
-    isArtere: 0
-    flow: 0
-    hasGrass: 0
-  - typeIndex: 1
-    isArtere: 0
-    flow: 0
-    hasGrass: 0
-  - typeIndex: 1
-    isArtere: 0
-    flow: 0
-    hasGrass: 0
-  - typeIndex: 0
-    isArtere: 0
-    flow: 0
-    hasGrass: 0
-  - typeIndex: 0
-    isArtere: 0
-    flow: 0
-    hasGrass: 0
-  - typeIndex: 0
-    isArtere: 0
-    flow: 0
-    hasGrass: 0
-  - typeIndex: 0
-    isArtere: 0
-    flow: 0
-    hasGrass: 0
-  - typeIndex: 0
-    isArtere: 0
-    flow: 0
-    hasGrass: 0
-  - typeIndex: 0
-    isArtere: 0
-    flow: 0
-    hasGrass: 0
-  - typeIndex: 0
-    isArtere: 0
-    flow: 0
-    hasGrass: 0
-  - typeIndex: 0
-    isArtere: 0
-    flow: 0
-    hasGrass: 0
-  - typeIndex: 0
-    isArtere: 0
-    flow: 0
-    hasGrass: 0
-  - typeIndex: 3
-    isArtere: 0
-    flow: 0
-    hasGrass: 0
-  - typeIndex: 3
-    isArtere: 0
-    flow: 0
-    hasGrass: 0
-  - typeIndex: 3
-    isArtere: 0
-    flow: 0
-    hasGrass: 0
-  - typeIndex: 3
-    isArtere: 0
-    flow: 0
+    isArtere: 1
+    flow: 1
     hasGrass: 0
   - typeIndex: 3
     isArtere: 0
@@ -5655,7 +5491,63 @@ MonoBehaviour:
     isArtere: 0
     flow: 0
     hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 3
+    isArtere: 1
+    flow: 2
+    hasGrass: 0
+  - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 3
+    isArtere: 1
+    flow: 1
+    hasGrass: 0
+  - typeIndex: 3
     isArtere: 0
     flow: 0
     hasGrass: 0
@@ -5710,6 +5602,114 @@ MonoBehaviour:
   - typeIndex: 0
     isArtere: 0
     flow: 0
+    hasGrass: 0
+  - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 0
+    isArtere: 1
+    flow: 2
+    hasGrass: 0
+  - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 0
+    isArtere: 1
+    flow: 1
     hasGrass: 0
   - typeIndex: 0
     isArtere: 0
@@ -9107,7 +9107,7 @@ MonoBehaviour:
   - name: Resource 1
     color: {r: .527136922, g: 0, b: .828358173, a: 1}
     atlasY: 10
-    atlasVarCount: 5
+    atlasVarCount: 1
     isResource: 1
     ressourceType: 2
     canDig: 0
@@ -9115,7 +9115,7 @@ MonoBehaviour:
   - name: Resource 2
     color: {r: .249086663, g: 0, b: .828358173, a: 1}
     atlasY: 7
-    atlasVarCount: 5
+    atlasVarCount: 1
     isResource: 1
     ressourceType: 1
     canDig: 0
@@ -9123,7 +9123,7 @@ MonoBehaviour:
   - name: Resource 3
     color: {r: .828358173, g: 0, b: .364940971, a: 1}
     atlasY: 13
-    atlasVarCount: 5
+    atlasVarCount: 1
     isResource: 1
     ressourceType: 8
     canDig: 0
@@ -9137,7 +9137,7 @@ MonoBehaviour:
     canDig: 0
     digLevel: 0
   lifeLayer: {fileID: 0}
-  mainMesh: {fileID: 4300000, guid: c832d16dbce44d24b9842fc750e44ae4, type: 2}
+  mainMesh: {fileID: 4300000, guid: 07b529e5fda27f14da973e640fac5484, type: 2}
   atlasWidth: 16
   atlasHeight: 32
   editMode: 0
@@ -9145,8 +9145,8 @@ MonoBehaviour:
   drawGarry: 1
   drawGizmos: 1
   drawGrid: 0
-  drawCells: 1
-  debugCurCell: 1
+  drawCells: 0
+  debugCurCell: 0
   debugText: 
 --- !u!114 &11400002
 MonoBehaviour:

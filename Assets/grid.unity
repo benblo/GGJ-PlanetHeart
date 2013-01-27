@@ -216,7 +216,7 @@ MonoBehaviour:
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 100000, guid: 4d9b14afc6b145e48a12b171b5925ad1, type: 2}
-  m_PrefabInternal: {fileID: 1682514988}
+  m_PrefabInternal: {fileID: 1946960618}
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 368921885}
@@ -234,7 +234,7 @@ MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 11400000, guid: 4d9b14afc6b145e48a12b171b5925ad1,
     type: 2}
-  m_PrefabInternal: {fileID: 1682514988}
+  m_PrefabInternal: {fileID: 1946960618}
   m_GameObject: {fileID: 368921883}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -773,7 +773,7 @@ MonoBehaviour:
     isArtere: 0
     flow: 0
     hasGrass: 0
-  - typeIndex: 4
+  - typeIndex: 1
     isArtere: 0
     flow: 0
     hasGrass: 0
@@ -921,7 +921,7 @@ MonoBehaviour:
     isArtere: 0
     flow: 0
     hasGrass: 0
-  - typeIndex: 4
+  - typeIndex: 1
     isArtere: 0
     flow: 0
     hasGrass: 0
@@ -1077,7 +1077,7 @@ MonoBehaviour:
     isArtere: 0
     flow: 0
     hasGrass: 0
-  - typeIndex: 4
+  - typeIndex: 1
     isArtere: 0
     flow: 0
     hasGrass: 0
@@ -7473,10 +7473,6 @@ MonoBehaviour:
     isArtere: 0
     flow: 0
     hasGrass: 0
-  - typeIndex: 4
-    isArtere: 0
-    flow: 0
-    hasGrass: 0
   - typeIndex: 1
     isArtere: 0
     flow: 0
@@ -7502,166 +7498,6 @@ MonoBehaviour:
     flow: 0
     hasGrass: 0
   - typeIndex: 1
-    isArtere: 0
-    flow: 0
-    hasGrass: 0
-  - typeIndex: 1
-    isArtere: 0
-    flow: 0
-    hasGrass: 0
-  - typeIndex: 6
-    isArtere: 0
-    flow: 0
-    hasGrass: 0
-  - typeIndex: 6
-    isArtere: 0
-    flow: 0
-    hasGrass: 0
-  - typeIndex: 6
-    isArtere: 0
-    flow: 0
-    hasGrass: 0
-  - typeIndex: 6
-    isArtere: 0
-    flow: 0
-    hasGrass: 0
-  - typeIndex: 6
-    isArtere: 0
-    flow: 0
-    hasGrass: 0
-  - typeIndex: 6
-    isArtere: 0
-    flow: 0
-    hasGrass: 0
-  - typeIndex: 1
-    isArtere: 0
-    flow: 0
-    hasGrass: 0
-  - typeIndex: 1
-    isArtere: 0
-    flow: 0
-    hasGrass: 0
-  - typeIndex: 0
-    isArtere: 0
-    flow: 0
-    hasGrass: 0
-  - typeIndex: 0
-    isArtere: 0
-    flow: 0
-    hasGrass: 0
-  - typeIndex: 0
-    isArtere: 0
-    flow: 0
-    hasGrass: 0
-  - typeIndex: 0
-    isArtere: 0
-    flow: 0
-    hasGrass: 0
-  - typeIndex: 0
-    isArtere: 0
-    flow: 0
-    hasGrass: 0
-  - typeIndex: 0
-    isArtere: 0
-    flow: 0
-    hasGrass: 0
-  - typeIndex: 0
-    isArtere: 0
-    flow: 0
-    hasGrass: 0
-  - typeIndex: 0
-    isArtere: 0
-    flow: 0
-    hasGrass: 0
-  - typeIndex: 0
-    isArtere: 0
-    flow: 0
-    hasGrass: 0
-  - typeIndex: 0
-    isArtere: 0
-    flow: 0
-    hasGrass: 0
-  - typeIndex: 0
-    isArtere: 0
-    flow: 0
-    hasGrass: 0
-  - typeIndex: 0
-    isArtere: 0
-    flow: 0
-    hasGrass: 0
-  - typeIndex: 0
-    isArtere: 0
-    flow: 0
-    hasGrass: 0
-  - typeIndex: 0
-    isArtere: 0
-    flow: 0
-    hasGrass: 0
-  - typeIndex: 0
-    isArtere: 0
-    flow: 0
-    hasGrass: 0
-  - typeIndex: 0
-    isArtere: 0
-    flow: 0
-    hasGrass: 0
-  - typeIndex: 0
-    isArtere: 0
-    flow: 0
-    hasGrass: 0
-  - typeIndex: 0
-    isArtere: 0
-    flow: 0
-    hasGrass: 0
-  - typeIndex: 0
-    isArtere: 0
-    flow: 0
-    hasGrass: 0
-  - typeIndex: 0
-    isArtere: 0
-    flow: 0
-    hasGrass: 0
-  - typeIndex: 3
-    isArtere: 0
-    flow: 0
-    hasGrass: 0
-  - typeIndex: 8
-    isArtere: 0
-    flow: 0
-    hasGrass: 0
-  - typeIndex: 8
-    isArtere: 0
-    flow: 0
-    hasGrass: 0
-  - typeIndex: 8
-    isArtere: 0
-    flow: 0
-    hasGrass: 0
-  - typeIndex: 4
-    isArtere: 0
-    flow: 0
-    hasGrass: 0
-  - typeIndex: 4
-    isArtere: 0
-    flow: 0
-    hasGrass: 0
-  - typeIndex: 4
-    isArtere: 0
-    flow: 0
-    hasGrass: 0
-  - typeIndex: 4
-    isArtere: 0
-    flow: 0
-    hasGrass: 0
-  - typeIndex: 4
-    isArtere: 0
-    flow: 0
-    hasGrass: 0
-  - typeIndex: 4
-    isArtere: 0
-    flow: 0
-    hasGrass: 0
-  - typeIndex: 4
     isArtere: 0
     flow: 0
     hasGrass: 0
@@ -7781,6 +7617,170 @@ MonoBehaviour:
     isArtere: 0
     flow: 0
     hasGrass: 0
+  - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 4
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 4
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 4
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 4
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 4
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 4
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 4
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 6
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 6
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 6
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 6
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 6
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 6
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 3
     isArtere: 0
     flow: 0
@@ -8061,10 +8061,6 @@ MonoBehaviour:
     isArtere: 0
     flow: 0
     hasGrass: 0
-  - typeIndex: 4
-    isArtere: 0
-    flow: 0
-    hasGrass: 0
   - typeIndex: 0
     isArtere: 0
     flow: 0
@@ -8081,7 +8077,11 @@ MonoBehaviour:
     isArtere: 0
     flow: 0
     hasGrass: 0
-  - typeIndex: 4
+  - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 0
     isArtere: 0
     flow: 0
     hasGrass: 0
@@ -9265,6 +9265,7 @@ MonoBehaviour:
     isArtere: 0
     flow: 0
     hasGrass: 0
+  musicControl: {fileID: 1793598904}
   cellTypes:
   - name: Rock 1
     color: {r: .850746274, g: .728208959, b: 0, a: 1}
@@ -9343,7 +9344,7 @@ MonoBehaviour:
   atlasWidth: 16
   atlasHeight: 32
   editMode: 0
-  brushType: 1
+  brushType: 0
   drawGarry: 1
   drawGizmos: 1
   drawGrid: 0
@@ -9354,7 +9355,7 @@ MonoBehaviour:
 Transform:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 400000, guid: 4d9b14afc6b145e48a12b171b5925ad1, type: 2}
-  m_PrefabInternal: {fileID: 1682514988}
+  m_PrefabInternal: {fileID: 1946960618}
   m_GameObject: {fileID: 368921883}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
@@ -9366,7 +9367,7 @@ MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 11400002, guid: 4d9b14afc6b145e48a12b171b5925ad1,
     type: 2}
-  m_PrefabInternal: {fileID: 1682514988}
+  m_PrefabInternal: {fileID: 1946960618}
   m_GameObject: {fileID: 368921883}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -10001,50 +10002,218 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
---- !u!1001 &1682514988
-Prefab:
+--- !u!1 &1793598902
+GameObject:
   m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 400000, guid: 4d9b14afc6b145e48a12b171b5925ad1, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 4d9b14afc6b145e48a12b171b5925ad1, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 4d9b14afc6b145e48a12b171b5925ad1, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 4d9b14afc6b145e48a12b171b5925ad1, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 4d9b14afc6b145e48a12b171b5925ad1, type: 2}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 4d9b14afc6b145e48a12b171b5925ad1, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 4d9b14afc6b145e48a12b171b5925ad1, type: 2}
-      propertyPath: m_LocalRotation.w
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1793598903}
+  - 114: {fileID: 1793598904}
+  - 82: {fileID: 1793598905}
+  - 82: {fileID: 1793598906}
+  - 82: {fileID: 1793598907}
+  m_Layer: 0
+  m_Name: music
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1793598903
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1793598902}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 20.5, y: 27.5, z: -1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &1793598904
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1793598902}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46ab4a0210c91cd4e835eb55b4d4ffe1, type: 3}
+  m_Name: 
+  musicLevel0: {fileID: 1793598905}
+  musicLevel1: {fileID: 1793598906}
+  musicLevel2: {fileID: 1793598907}
+  fadeDuration: 1
+--- !u!82 &1793598905
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1793598902}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: .999989986
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
       value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 11400000, guid: 4d9b14afc6b145e48a12b171b5925ad1, type: 2}
-      propertyPath: lifeLayer
-      value: 
-      objectReference: {fileID: 102498013}
-    m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 100100000, guid: 4d9b14afc6b145e48a12b171b5925ad1, type: 2}
-  m_RootGameObject: {fileID: 368921883}
-  m_IsPrefabParent: 0
-  m_IsExploded: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+--- !u!82 &1793598906
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1793598902}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: .999989986
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+--- !u!82 &1793598907
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1793598902}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 0
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
 --- !u!1 &1920407999
 GameObject:
   m_ObjectHideFlags: 0
@@ -10113,6 +10282,54 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1920407999}
   m_Mesh: {fileID: 4300000, guid: 818b7408412924947a0188bfd1ae2d1d, type: 2}
+--- !u!1001 &1946960618
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 400000, guid: 4d9b14afc6b145e48a12b171b5925ad1, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 4d9b14afc6b145e48a12b171b5925ad1, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 4d9b14afc6b145e48a12b171b5925ad1, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 4d9b14afc6b145e48a12b171b5925ad1, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 4d9b14afc6b145e48a12b171b5925ad1, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 4d9b14afc6b145e48a12b171b5925ad1, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 4d9b14afc6b145e48a12b171b5925ad1, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 4d9b14afc6b145e48a12b171b5925ad1, type: 2}
+      propertyPath: musicControl
+      value: 
+      objectReference: {fileID: 1793598904}
+    - target: {fileID: 11400000, guid: 4d9b14afc6b145e48a12b171b5925ad1, type: 2}
+      propertyPath: lifeLayer
+      value: 
+      objectReference: {fileID: 102498013}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 4d9b14afc6b145e48a12b171b5925ad1, type: 2}
+  m_RootGameObject: {fileID: 368921883}
+  m_IsPrefabParent: 0
+  m_IsExploded: 1
 --- !u!1 &1993581389
 GameObject:
   m_ObjectHideFlags: 0

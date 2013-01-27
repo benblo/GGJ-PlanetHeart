@@ -104,6 +104,9 @@ public class Heart
         cell = worldGrid.getCell(22, 34);
         cell.flow = CellFlowDirection.Up;
         cell.isArtere = true;
+		
+		
+		worldGrid.musicControl.SetupLevel1();
     }
 
     public void SetupLevel2()
@@ -146,6 +149,9 @@ public class Heart
         cell.isArtere = true;
 
         globuleToSpawn = 10;
+		
+		
+		worldGrid.musicControl.SetupLevel2();
     }
 
     public void SpawnGlobule(Vector2 pos)

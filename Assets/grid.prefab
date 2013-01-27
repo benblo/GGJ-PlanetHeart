@@ -571,7 +571,7 @@ MonoBehaviour:
     isArtere: 0
     flow: 0
     hasGrass: 0
-  - typeIndex: 4
+  - typeIndex: 1
     isArtere: 0
     flow: 0
     hasGrass: 0
@@ -719,7 +719,7 @@ MonoBehaviour:
     isArtere: 0
     flow: 0
     hasGrass: 0
-  - typeIndex: 4
+  - typeIndex: 1
     isArtere: 0
     flow: 0
     hasGrass: 0
@@ -875,7 +875,7 @@ MonoBehaviour:
     isArtere: 0
     flow: 0
     hasGrass: 0
-  - typeIndex: 4
+  - typeIndex: 1
     isArtere: 0
     flow: 0
     hasGrass: 0
@@ -7271,10 +7271,6 @@ MonoBehaviour:
     isArtere: 0
     flow: 0
     hasGrass: 0
-  - typeIndex: 4
-    isArtere: 0
-    flow: 0
-    hasGrass: 0
   - typeIndex: 1
     isArtere: 0
     flow: 0
@@ -7300,166 +7296,6 @@ MonoBehaviour:
     flow: 0
     hasGrass: 0
   - typeIndex: 1
-    isArtere: 0
-    flow: 0
-    hasGrass: 0
-  - typeIndex: 1
-    isArtere: 0
-    flow: 0
-    hasGrass: 0
-  - typeIndex: 6
-    isArtere: 0
-    flow: 0
-    hasGrass: 0
-  - typeIndex: 6
-    isArtere: 0
-    flow: 0
-    hasGrass: 0
-  - typeIndex: 6
-    isArtere: 0
-    flow: 0
-    hasGrass: 0
-  - typeIndex: 6
-    isArtere: 0
-    flow: 0
-    hasGrass: 0
-  - typeIndex: 6
-    isArtere: 0
-    flow: 0
-    hasGrass: 0
-  - typeIndex: 6
-    isArtere: 0
-    flow: 0
-    hasGrass: 0
-  - typeIndex: 1
-    isArtere: 0
-    flow: 0
-    hasGrass: 0
-  - typeIndex: 1
-    isArtere: 0
-    flow: 0
-    hasGrass: 0
-  - typeIndex: 0
-    isArtere: 0
-    flow: 0
-    hasGrass: 0
-  - typeIndex: 0
-    isArtere: 0
-    flow: 0
-    hasGrass: 0
-  - typeIndex: 0
-    isArtere: 0
-    flow: 0
-    hasGrass: 0
-  - typeIndex: 0
-    isArtere: 0
-    flow: 0
-    hasGrass: 0
-  - typeIndex: 0
-    isArtere: 0
-    flow: 0
-    hasGrass: 0
-  - typeIndex: 0
-    isArtere: 0
-    flow: 0
-    hasGrass: 0
-  - typeIndex: 0
-    isArtere: 0
-    flow: 0
-    hasGrass: 0
-  - typeIndex: 0
-    isArtere: 0
-    flow: 0
-    hasGrass: 0
-  - typeIndex: 0
-    isArtere: 0
-    flow: 0
-    hasGrass: 0
-  - typeIndex: 0
-    isArtere: 0
-    flow: 0
-    hasGrass: 0
-  - typeIndex: 0
-    isArtere: 0
-    flow: 0
-    hasGrass: 0
-  - typeIndex: 0
-    isArtere: 0
-    flow: 0
-    hasGrass: 0
-  - typeIndex: 0
-    isArtere: 0
-    flow: 0
-    hasGrass: 0
-  - typeIndex: 0
-    isArtere: 0
-    flow: 0
-    hasGrass: 0
-  - typeIndex: 0
-    isArtere: 0
-    flow: 0
-    hasGrass: 0
-  - typeIndex: 0
-    isArtere: 0
-    flow: 0
-    hasGrass: 0
-  - typeIndex: 0
-    isArtere: 0
-    flow: 0
-    hasGrass: 0
-  - typeIndex: 0
-    isArtere: 0
-    flow: 0
-    hasGrass: 0
-  - typeIndex: 0
-    isArtere: 0
-    flow: 0
-    hasGrass: 0
-  - typeIndex: 0
-    isArtere: 0
-    flow: 0
-    hasGrass: 0
-  - typeIndex: 3
-    isArtere: 0
-    flow: 0
-    hasGrass: 0
-  - typeIndex: 8
-    isArtere: 0
-    flow: 0
-    hasGrass: 0
-  - typeIndex: 8
-    isArtere: 0
-    flow: 0
-    hasGrass: 0
-  - typeIndex: 8
-    isArtere: 0
-    flow: 0
-    hasGrass: 0
-  - typeIndex: 4
-    isArtere: 0
-    flow: 0
-    hasGrass: 0
-  - typeIndex: 4
-    isArtere: 0
-    flow: 0
-    hasGrass: 0
-  - typeIndex: 4
-    isArtere: 0
-    flow: 0
-    hasGrass: 0
-  - typeIndex: 4
-    isArtere: 0
-    flow: 0
-    hasGrass: 0
-  - typeIndex: 4
-    isArtere: 0
-    flow: 0
-    hasGrass: 0
-  - typeIndex: 4
-    isArtere: 0
-    flow: 0
-    hasGrass: 0
-  - typeIndex: 4
     isArtere: 0
     flow: 0
     hasGrass: 0
@@ -7579,6 +7415,170 @@ MonoBehaviour:
     isArtere: 0
     flow: 0
     hasGrass: 0
+  - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 4
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 4
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 4
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 4
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 4
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 4
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 4
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 6
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 6
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 6
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 6
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 6
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 6
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 3
     isArtere: 0
     flow: 0
@@ -7859,10 +7859,6 @@ MonoBehaviour:
     isArtere: 0
     flow: 0
     hasGrass: 0
-  - typeIndex: 4
-    isArtere: 0
-    flow: 0
-    hasGrass: 0
   - typeIndex: 0
     isArtere: 0
     flow: 0
@@ -7879,7 +7875,11 @@ MonoBehaviour:
     isArtere: 0
     flow: 0
     hasGrass: 0
-  - typeIndex: 4
+  - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 0
     isArtere: 0
     flow: 0
     hasGrass: 0
@@ -9063,6 +9063,7 @@ MonoBehaviour:
     isArtere: 0
     flow: 0
     hasGrass: 0
+  musicControl: {fileID: 0}
   cellTypes:
   - name: Rock 1
     color: {r: .850746274, g: .728208959, b: 0, a: 1}
@@ -9141,7 +9142,7 @@ MonoBehaviour:
   atlasWidth: 16
   atlasHeight: 32
   editMode: 0
-  brushType: 1
+  brushType: 0
   drawGarry: 1
   drawGizmos: 1
   drawGrid: 0

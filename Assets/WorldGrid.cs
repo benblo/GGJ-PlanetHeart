@@ -67,6 +67,7 @@ public class WorldGrid : MonoBehaviour
     internal List<Tree> trees = new List<Tree>();
 
     internal Heart heart;
+	public MusicControl musicControl;
 
 	public bool isInBounds( int x, int y )
 	{

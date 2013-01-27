@@ -8,12 +8,14 @@ public class Tree
     public Cell cell;
     WorldGrid worldGrid;
     RessourceConsumer ressourceConsumer;
-
+	
     public int ressourcesForGrowth = 3;
     public int currentRessources;
     public int growthLevel = 0;
-
     public int maxLevel = 6;
+	
+	public TreeType type;
+	public float animOffset;
 
     public Tree(WorldGrid _world, Cell _cell, Vector2 _position)
     {
@@ -27,7 +29,11 @@ public class Tree
         ressourceConsumer.OnRessourceConsumed += new RessourceConsumer.RessourceEvent(ressourceConsumer_OnRessourceConsumed);
 
         cell.ressourceConsumer = ressourceConsumer;
-
+		
+		type = _world.lifeLayer.treeTypes[ Random.Range(0, _world.lifeLayer.treeTypes.Length) ];
+		maxLevel = type.growthCount - 1;
+		animOffset = Random.value;
+		
         worldGrid.trees.Add(this);
     }
 

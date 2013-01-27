@@ -44,2261 +44,9025 @@ MonoBehaviour:
   particleSpeedMax: 4
   grid:
   - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 1
   - typeIndex: 4
+    isArtere: 0
+    flow: 0
+    hasGrass: 1
   - typeIndex: 4
+    isArtere: 0
+    flow: 0
+    hasGrass: 1
   - typeIndex: 4
+    isArtere: 0
+    flow: 0
+    hasGrass: 1
   - typeIndex: 4
+    isArtere: 0
+    flow: 0
+    hasGrass: 1
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 1
   - typeIndex: 4
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 3
-  - typeIndex: 3
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 1
   - typeIndex: 4
+    isArtere: 0
+    flow: 0
+    hasGrass: 1
   - typeIndex: 4
+    isArtere: 0
+    flow: 0
+    hasGrass: 1
   - typeIndex: 4
+    isArtere: 0
+    flow: 0
+    hasGrass: 1
+  - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 1
   - typeIndex: 4
+    isArtere: 0
+    flow: 0
+    hasGrass: 1
   - typeIndex: 4
+    isArtere: 0
+    flow: 0
+    hasGrass: 1
   - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 3
-  - typeIndex: 1
-  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 4
+    isArtere: 0
+    flow: 0
+    hasGrass: 1
   - typeIndex: 4
+    isArtere: 0
+    flow: 0
+    hasGrass: 1
   - typeIndex: 4
+    isArtere: 0
+    flow: 0
+    hasGrass: 1
   - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 3
-  - typeIndex: 4
-  - typeIndex: 4
-  - typeIndex: 4
-  - typeIndex: 8
-  - typeIndex: 8
-  - typeIndex: 8
-  - typeIndex: 8
-  - typeIndex: 8
-  - typeIndex: 8
-  - typeIndex: 8
-  - typeIndex: 8
-  - typeIndex: 8
-  - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 3
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 3
-  - typeIndex: 8
-  - typeIndex: 8
-  - typeIndex: 8
-  - typeIndex: 8
-  - typeIndex: 8
-  - typeIndex: 8
-  - typeIndex: 8
-  - typeIndex: 8
-  - typeIndex: 8
-  - typeIndex: 8
-  - typeIndex: 8
-  - typeIndex: 8
-  - typeIndex: 8
-  - typeIndex: 2
-  - typeIndex: 2
-  - typeIndex: 2
-  - typeIndex: 2
-  - typeIndex: 2
-  - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 2
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 3
-  - typeIndex: 8
-  - typeIndex: 8
-  - typeIndex: 8
-  - typeIndex: 8
-  - typeIndex: 8
-  - typeIndex: 8
-  - typeIndex: 8
-  - typeIndex: 8
-  - typeIndex: 8
-  - typeIndex: 8
-  - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
-  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 8
-  - typeIndex: 8
-  - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 2
-  - typeIndex: 2
-  - typeIndex: 2
-  - typeIndex: 2
-  - typeIndex: 2
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 3
-  - typeIndex: 3
-  - typeIndex: 8
-  - typeIndex: 8
-  - typeIndex: 8
-  - typeIndex: 8
-  - typeIndex: 8
-  - typeIndex: 8
-  - typeIndex: 8
-  - typeIndex: 2
-  - typeIndex: 2
-  - typeIndex: 2
-  - typeIndex: 2
-  - typeIndex: 2
-  - typeIndex: 2
-  - typeIndex: 2
-  - typeIndex: 2
-  - typeIndex: 2
-  - typeIndex: 2
-  - typeIndex: 2
-  - typeIndex: 2
-  - typeIndex: 2
-  - typeIndex: 2
-  - typeIndex: 2
-  - typeIndex: 2
-  - typeIndex: 2
-  - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 7
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 7
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 7
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 7
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 7
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 7
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 7
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 7
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 7
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 7
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 7
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 7
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 7
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 7
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 7
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 7
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 7
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 7
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 7
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 7
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 7
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 7
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 7
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 8
-  - typeIndex: 3
-  - typeIndex: 3
-  - typeIndex: 3
-  - typeIndex: 3
-  - typeIndex: 3
-  - typeIndex: 3
-  - typeIndex: 3
-  - typeIndex: 2
-  - typeIndex: 2
-  - typeIndex: 2
-  - typeIndex: 2
-  - typeIndex: 2
-  - typeIndex: 2
-  - typeIndex: 3
-  - typeIndex: 3
-  - typeIndex: 3
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 3
-  - typeIndex: 3
-  - typeIndex: 2
-  - typeIndex: 2
-  - typeIndex: 2
-  - typeIndex: 2
-  - typeIndex: 2
-  - typeIndex: 2
-  - typeIndex: 2
-  - typeIndex: 2
-  - typeIndex: 2
-  - typeIndex: 2
-  - typeIndex: 2
-  - typeIndex: 2
-  - typeIndex: 3
-  - typeIndex: 3
-  - typeIndex: 3
-  - typeIndex: 3
-  - typeIndex: 3
-  - typeIndex: 3
-  - typeIndex: 3
-  - typeIndex: 3
-  - typeIndex: 3
-  - typeIndex: 3
-  - typeIndex: 3
-  - typeIndex: 3
-  - typeIndex: 2
-  - typeIndex: 2
-  - typeIndex: 2
-  - typeIndex: 2
-  - typeIndex: 2
-  - typeIndex: 2
-  - typeIndex: 2
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 3
-  - typeIndex: 3
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 2
-  - typeIndex: 2
-  - typeIndex: 2
-  - typeIndex: 2
-  - typeIndex: 2
-  - typeIndex: 2
-  - typeIndex: 2
-  - typeIndex: 2
-  - typeIndex: 2
-  - typeIndex: 2
-  - typeIndex: 3
-  - typeIndex: 3
-  - typeIndex: 3
-  - typeIndex: 3
-  - typeIndex: 3
-  - typeIndex: 2
-  - typeIndex: 2
-  - typeIndex: 2
-  - typeIndex: 2
-  - typeIndex: 2
-  - typeIndex: 2
-  - typeIndex: 2
-  - typeIndex: 2
-  - typeIndex: 2
-  - typeIndex: 2
-  - typeIndex: 2
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 3
-  - typeIndex: 3
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 2
-  - typeIndex: 2
-  - typeIndex: 2
-  - typeIndex: 2
-  - typeIndex: 2
-  - typeIndex: 2
-  - typeIndex: 2
-  - typeIndex: 2
-  - typeIndex: 2
-  - typeIndex: 2
-  - typeIndex: 2
-  - typeIndex: 2
-  - typeIndex: 2
-  - typeIndex: 2
-  - typeIndex: 2
-  - typeIndex: 2
-  - typeIndex: 2
-  - typeIndex: 2
-  - typeIndex: 2
-  - typeIndex: 2
-  - typeIndex: 2
-  - typeIndex: 2
-  - typeIndex: 2
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 3
-  - typeIndex: 3
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 2
-  - typeIndex: 2
-  - typeIndex: 2
-  - typeIndex: 2
-  - typeIndex: 2
-  - typeIndex: 2
-  - typeIndex: 2
-  - typeIndex: 2
-  - typeIndex: 2
-  - typeIndex: 2
-  - typeIndex: 2
-  - typeIndex: 2
-  - typeIndex: 2
-  - typeIndex: 2
-  - typeIndex: 2
-  - typeIndex: 2
-  - typeIndex: 2
-  - typeIndex: 2
-  - typeIndex: 2
-  - typeIndex: 2
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 3
-  - typeIndex: 3
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 3
-  - typeIndex: 3
-  - typeIndex: 3
-  - typeIndex: 2
-  - typeIndex: 2
-  - typeIndex: 2
-  - typeIndex: 2
-  - typeIndex: 2
-  - typeIndex: 2
-  - typeIndex: 2
-  - typeIndex: 2
-  - typeIndex: 2
-  - typeIndex: 2
-  - typeIndex: 2
-  - typeIndex: 2
-  - typeIndex: 2
-  - typeIndex: 2
-  - typeIndex: 2
-  - typeIndex: 2
-  - typeIndex: 2
-  - typeIndex: 3
-  - typeIndex: 3
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 3
-  - typeIndex: 3
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 3
-  - typeIndex: 3
-  - typeIndex: 3
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 2
-  - typeIndex: 2
-  - typeIndex: 2
-  - typeIndex: 2
-  - typeIndex: 2
-  - typeIndex: 2
-  - typeIndex: 2
-  - typeIndex: 2
-  - typeIndex: 2
-  - typeIndex: 2
-  - typeIndex: 2
-  - typeIndex: 2
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 3
-  - typeIndex: 3
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 3
-  - typeIndex: 3
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 3
-  - typeIndex: 3
-  - typeIndex: 3
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 3
-  - typeIndex: 3
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 3
-  - typeIndex: 3
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 3
-  - typeIndex: 3
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 3
-  - typeIndex: 3
-  - typeIndex: 3
-  - typeIndex: 3
-  - typeIndex: 3
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 0
-  - typeIndex: 0
-  - typeIndex: 0
-  - typeIndex: 0
-  - typeIndex: 3
-  - typeIndex: 3
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 3
-  - typeIndex: 3
-  - typeIndex: 3
-  - typeIndex: 3
-  - typeIndex: 3
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 0
-  - typeIndex: 0
-  - typeIndex: 0
-  - typeIndex: 0
-  - typeIndex: 0
-  - typeIndex: 0
-  - typeIndex: 0
-  - typeIndex: 0
-  - typeIndex: 0
-  - typeIndex: 0
-  - typeIndex: 3
-  - typeIndex: 3
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 0
-  - typeIndex: 0
-  - typeIndex: 3
-  - typeIndex: 3
-  - typeIndex: 3
-  - typeIndex: 3
-  - typeIndex: 3
-  - typeIndex: 0
-  - typeIndex: 0
-  - typeIndex: 0
-  - typeIndex: 0
-  - typeIndex: 0
-  - typeIndex: 0
-  - typeIndex: 0
-  - typeIndex: 0
-  - typeIndex: 0
-  - typeIndex: 0
-  - typeIndex: 0
-  - typeIndex: 0
-  - typeIndex: 0
-  - typeIndex: 0
-  - typeIndex: 0
-  - typeIndex: 0
-  - typeIndex: 3
-  - typeIndex: 3
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 0
-  - typeIndex: 0
-  - typeIndex: 0
-  - typeIndex: 0
-  - typeIndex: 0
-  - typeIndex: 0
-  - typeIndex: 3
-  - typeIndex: 3
-  - typeIndex: 3
-  - typeIndex: 3
-  - typeIndex: 3
-  - typeIndex: 0
-  - typeIndex: 0
-  - typeIndex: 0
-  - typeIndex: 0
-  - typeIndex: 0
-  - typeIndex: 0
-  - typeIndex: 0
-  - typeIndex: 0
-  - typeIndex: 0
-  - typeIndex: 0
-  - typeIndex: 0
-  - typeIndex: 0
-  - typeIndex: 0
-  - typeIndex: 0
-  - typeIndex: 0
-  - typeIndex: 0
-  - typeIndex: 3
-  - typeIndex: 3
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 0
-  - typeIndex: 0
-  - typeIndex: 0
-  - typeIndex: 0
-  - typeIndex: 0
-  - typeIndex: 0
-  - typeIndex: 0
-  - typeIndex: 0
-  - typeIndex: 0
-  - typeIndex: 3
-  - typeIndex: 3
-  - typeIndex: 3
-  - typeIndex: 3
-  - typeIndex: 3
-  - typeIndex: 0
-  - typeIndex: 0
-  - typeIndex: 0
-  - typeIndex: 0
-  - typeIndex: 0
-  - typeIndex: 0
-  - typeIndex: 0
-  - typeIndex: 0
-  - typeIndex: 0
-  - typeIndex: 0
-  - typeIndex: 0
-  - typeIndex: 0
-  - typeIndex: 0
-  - typeIndex: 0
-  - typeIndex: 0
-  - typeIndex: 0
-  - typeIndex: 3
-  - typeIndex: 3
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 0
-  - typeIndex: 0
-  - typeIndex: 0
-  - typeIndex: 0
-  - typeIndex: 0
-  - typeIndex: 0
-  - typeIndex: 0
-  - typeIndex: 0
-  - typeIndex: 0
-  - typeIndex: 0
-  - typeIndex: 0
-  - typeIndex: 0
-  - typeIndex: 0
-  - typeIndex: 0
-  - typeIndex: 0
-  - typeIndex: 0
-  - typeIndex: 0
-  - typeIndex: 0
-  - typeIndex: 0
-  - typeIndex: 0
-  - typeIndex: 0
-  - typeIndex: 0
-  - typeIndex: 0
-  - typeIndex: 0
-  - typeIndex: 0
-  - typeIndex: 0
-  - typeIndex: 0
-  - typeIndex: 0
-  - typeIndex: 0
-  - typeIndex: 0
-  - typeIndex: 0
-  - typeIndex: 3
-  - typeIndex: 3
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 1
-  - typeIndex: 0
-  - typeIndex: 0
-  - typeIndex: 0
-  - typeIndex: 0
-  - typeIndex: 0
-  - typeIndex: 0
-  - typeIndex: 0
-  - typeIndex: 0
-  - typeIndex: 0
-  - typeIndex: 0
-  - typeIndex: 0
-  - typeIndex: 0
-  - typeIndex: 0
-  - typeIndex: 0
-  - typeIndex: 0
-  - typeIndex: 0
-  - typeIndex: 0
-  - typeIndex: 0
-  - typeIndex: 0
-  - typeIndex: 0
-  - typeIndex: 0
-  - typeIndex: 0
-  - typeIndex: 0
-  - typeIndex: 0
-  - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 2
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 5
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 5
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 5
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 5
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 5
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 5
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 5
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 5
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 5
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 5
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 5
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 5
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 5
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 5
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 5
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 5
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 5
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 5
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 5
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 5
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 5
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 5
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 5
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 5
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 5
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 5
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 5
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 5
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 5
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 5
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 5
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 5
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 5
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 5
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 5
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 5
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 5
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 5
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 5
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 5
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 5
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 5
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 5
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 5
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 5
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 5
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 5
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 5
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 5
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 5
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 5
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 5
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 5
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 5
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 5
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 5
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 5
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 5
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 6
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 6
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 6
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 6
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 4
+    isArtere: 0
+    flow: 0
+    hasGrass: 1
   - typeIndex: 4
+    isArtere: 0
+    flow: 0
+    hasGrass: 1
   - typeIndex: 4
-  - typeIndex: 4
+    isArtere: 0
+    flow: 0
+    hasGrass: 1
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 1
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 6
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 6
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 6
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 6
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 6
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 6
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 4
+    isArtere: 0
+    flow: 0
+    hasGrass: 1
   - typeIndex: 4
+    isArtere: 0
+    flow: 0
+    hasGrass: 1
   - typeIndex: 4
+    isArtere: 0
+    flow: 0
+    hasGrass: 1
   - typeIndex: 4
+    isArtere: 0
+    flow: 0
+    hasGrass: 1
   - typeIndex: 4
+    isArtere: 0
+    flow: 0
+    hasGrass: 1
   - typeIndex: 4
+    isArtere: 0
+    flow: 0
+    hasGrass: 1
   - typeIndex: 4
+    isArtere: 0
+    flow: 0
+    hasGrass: 1
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 6
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 6
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 6
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 6
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 6
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 6
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 6
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 6
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 6
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 6
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 6
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 6
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 1
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 4
+    isArtere: 0
+    flow: 0
+    hasGrass: 1
   - typeIndex: 4
+    isArtere: 0
+    flow: 0
+    hasGrass: 1
   - typeIndex: 4
+    isArtere: 0
+    flow: 0
+    hasGrass: 1
   - typeIndex: 4
+    isArtere: 0
+    flow: 0
+    hasGrass: 1
   - typeIndex: 4
+    isArtere: 0
+    flow: 0
+    hasGrass: 1
   - typeIndex: 4
+    isArtere: 0
+    flow: 0
+    hasGrass: 1
   - typeIndex: 4
-  - typeIndex: 4
+    isArtere: 0
+    flow: 0
+    hasGrass: 1
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 1
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 0
+    isArtere: 0
+    flow: 0
+    hasGrass: 1
   - typeIndex: 4
+    isArtere: 0
+    flow: 0
+    hasGrass: 1
   - typeIndex: 4
+    isArtere: 0
+    flow: 0
+    hasGrass: 1
+  - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 4
-  - typeIndex: 3
-  - typeIndex: 3
-  - typeIndex: 3
-  - typeIndex: 3
-  - typeIndex: 3
-  - typeIndex: 3
-  - typeIndex: 8
-  - typeIndex: 8
-  - typeIndex: 8
-  - typeIndex: 8
-  - typeIndex: 8
-  - typeIndex: 8
-  - typeIndex: 8
-  - typeIndex: 8
-  - typeIndex: 8
-  - typeIndex: 8
-  - typeIndex: 8
-  - typeIndex: 8
-  - typeIndex: 8
-  - typeIndex: 8
-  - typeIndex: 8
-  - typeIndex: 8
-  - typeIndex: 8
-  - typeIndex: 8
-  - typeIndex: 8
-  - typeIndex: 8
-  - typeIndex: 8
-  - typeIndex: 8
-  - typeIndex: 8
-  - typeIndex: 8
-  - typeIndex: 8
-  - typeIndex: 8
-  - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 1
   - typeIndex: 4
+    isArtere: 0
+    flow: 0
+    hasGrass: 1
   - typeIndex: 4
+    isArtere: 0
+    flow: 0
+    hasGrass: 1
   - typeIndex: 4
+    isArtere: 0
+    flow: 0
+    hasGrass: 1
   - typeIndex: 4
+    isArtere: 0
+    flow: 0
+    hasGrass: 1
   - typeIndex: 4
-  - typeIndex: 4
+    isArtere: 0
+    flow: 0
+    hasGrass: 1
   - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 3
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   - typeIndex: 3
-  - typeIndex: 8
-  - typeIndex: 8
-  - typeIndex: 8
-  - typeIndex: 8
-  - typeIndex: 8
-  - typeIndex: 8
-  - typeIndex: 8
-  - typeIndex: 8
-  - typeIndex: 8
-  - typeIndex: 8
-  - typeIndex: 8
-  - typeIndex: 8
-  - typeIndex: 8
-  - typeIndex: 8
-  - typeIndex: 8
-  - typeIndex: 8
-  - typeIndex: 8
-  - typeIndex: 8
-  - typeIndex: 8
-  - typeIndex: 8
-  - typeIndex: 8
-  - typeIndex: 8
-  - typeIndex: 8
-  - typeIndex: 8
-  - typeIndex: 8
-  - typeIndex: 8
-  - typeIndex: 8
-  - typeIndex: 8
-  - typeIndex: 8
-  - typeIndex: 8
-  - typeIndex: 8
-  - typeIndex: 8
-  - typeIndex: 8
-  - typeIndex: 8
-  - typeIndex: 8
-  - typeIndex: 8
-  - typeIndex: 8
-  - typeIndex: 8
-  - typeIndex: 8
-  - typeIndex: 8
-  - typeIndex: 8
-  - typeIndex: 8
-  - typeIndex: 8
-  - typeIndex: 8
-  - typeIndex: 8
-  - typeIndex: 8
-  - typeIndex: 8
-  - typeIndex: 8
-  - typeIndex: 8
-  - typeIndex: 8
-  - typeIndex: 8
-  - typeIndex: 8
-  - typeIndex: 8
-  - typeIndex: 8
-  - typeIndex: 8
-  - typeIndex: 8
-  - typeIndex: 8
-  - typeIndex: 8
-  - typeIndex: 8
-  - typeIndex: 8
-  - typeIndex: 8
-  - typeIndex: 8
-  - typeIndex: 8
-  - typeIndex: 8
-  - typeIndex: 8
-  - typeIndex: 8
-  - typeIndex: 8
-  - typeIndex: 8
-  - typeIndex: 8
-  - typeIndex: 8
-  - typeIndex: 8
-  - typeIndex: 8
-  - typeIndex: 8
-  - typeIndex: 8
-  - typeIndex: 8
-  - typeIndex: 8
-  - typeIndex: 8
-  - typeIndex: 8
-  - typeIndex: 8
-  - typeIndex: 8
-  - typeIndex: 8
-  - typeIndex: 8
-  - typeIndex: 8
-  - typeIndex: 8
-  - typeIndex: 8
-  - typeIndex: 8
-  - typeIndex: 8
-  - typeIndex: 8
-  - typeIndex: 8
-  - typeIndex: 8
-  - typeIndex: 8
-  - typeIndex: 8
-  - typeIndex: 8
-  - typeIndex: 8
-  - typeIndex: 8
-  - typeIndex: 8
-  - typeIndex: 8
-  - typeIndex: 8
-  - typeIndex: 8
-  - typeIndex: 8
-  - typeIndex: 8
-  - typeIndex: 8
-  - typeIndex: 8
-  - typeIndex: 8
-  - typeIndex: 8
-  - typeIndex: 8
-  - typeIndex: 8
-  - typeIndex: 8
-  - typeIndex: 8
-  - typeIndex: 8
-  - typeIndex: 8
-  - typeIndex: 8
-  - typeIndex: 8
-  - typeIndex: 8
-  - typeIndex: 8
-  - typeIndex: 8
-  - typeIndex: 8
-  - typeIndex: 8
-  - typeIndex: 8
-  - typeIndex: 8
-  - typeIndex: 8
-  - typeIndex: 8
-  - typeIndex: 8
-  - typeIndex: 8
-  - typeIndex: 8
-  - typeIndex: 8
-  globules: []
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
+  - typeIndex: 8
+    isArtere: 0
+    flow: 0
+    hasGrass: 0
   cellTypes:
   - name: Rock 1
     color: {r: .850746274, g: .728208959, b: 0, a: 1}
@@ -2345,7 +9109,7 @@ MonoBehaviour:
     atlasY: 10
     atlasVarCount: 1
     isResource: 1
-    ressourceType: 1
+    ressourceType: 2
     canDig: 0
     digLevel: 0
   - name: Resource 2
@@ -2372,16 +9136,17 @@ MonoBehaviour:
     ressourceType: 0
     canDig: 0
     digLevel: 0
+  lifeLayer: {fileID: 0}
   mainMesh: {fileID: 4300000, guid: c832d16dbce44d24b9842fc750e44ae4, type: 2}
   atlasWidth: 16
   atlasHeight: 32
-  editMode: 0
+  editMode: 1
   brushType: 1
   drawGarry: 1
-  drawGizmos: 0
+  drawGizmos: 1
   drawGrid: 0
-  drawCells: 1
-  debugCurCell: 1
+  drawCells: 0
+  debugCurCell: 0
   debugText: 
 --- !u!114 &11400002
 MonoBehaviour:

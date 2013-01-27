@@ -18,8 +18,8 @@ public class SpriteLayer : MonoBehaviour
 	Vector2[] uvs;
 	Color[] colors;
 	
-	public int atlasWidth = 2;
-	public int atlasHeight = 2;
+	public float atlasWidth = 2;
+	public float atlasHeight = 2;
 	float atlasStepX;
 	float atlasStepY;
 	

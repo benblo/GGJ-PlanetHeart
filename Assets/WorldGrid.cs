@@ -126,6 +126,7 @@ public class WorldGrid : MonoBehaviour
     }	
 	
 	public CellType[] cellTypes;
+	public LifeLayer lifeLayer;
 	
 	void Awake()
 	{

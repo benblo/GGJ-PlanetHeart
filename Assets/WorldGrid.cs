@@ -136,7 +136,7 @@ public class WorldGrid : MonoBehaviour
 		
 		initMesh(mainMesh, ref mainUVs);
 
-        heart = new Heart(this, getCell(21, 31), new Vector2(21, 31));
+        heart = new Heart(this);
 	}
 	
 	void initGrid()

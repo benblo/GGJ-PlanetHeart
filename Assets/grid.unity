@@ -9961,7 +9961,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 857559366}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -1}
+  m_LocalPosition: {x: 0, y: 0, z: -3}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 394200451}
@@ -9976,8 +9976,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e2a13b621e9d9d14b8798fc65833d3f1, type: 3}
   m_Name: 
   mesh: {fileID: 4300000, guid: 4f903a939f2b70e45bd4282da04baaf5, type: 2}
-  atlasWidth: 2
-  atlasHeight: 1
+  atlasWidth: 3.20000005
+  atlasHeight: 1.60000002
   autoUpdate: 0
 --- !u!114 &857559369
 MonoBehaviour:

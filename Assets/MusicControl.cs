@@ -10,12 +10,15 @@ public class MusicControl : MonoBehaviour
 	
 	public void SetupLevel1()
 	{
-		StartCoroutine( switchMusic(musicLevel0, musicLevel1) );
+		Debug.Log("SetupLevel1");
+		//StartCoroutine( switchMusic(musicLevel0, musicLevel1) );
 	}
 	
 	public void SetupLevel2()
 	{
-		StartCoroutine( switchMusic(musicLevel1, musicLevel2) );
+		Debug.Log("SetupLevel2");
+		//StartCoroutine( switchMusic(musicLevel1, musicLevel2) );
+		StartCoroutine( switchMusic(musicLevel0, musicLevel1) );
 	}
 	
 	IEnumerator switchMusic( AudioSource from, AudioSource to )
@@ -27,7 +30,7 @@ public class MusicControl : MonoBehaviour
 			timeLeft = Mathf.Max(0, timeLeft - Time.deltaTime);
 			float cursor = timeLeft / fadeDuration;
 			from.volume = cursor;
-			to.volume = cursor;
+			to.volume = 1 - cursor;
 			yield return 0;
 		}
 	}

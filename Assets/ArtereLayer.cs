@@ -17,6 +17,8 @@ public class ArtereLayer : MonoBehaviour
 
 	public void Reset()
 	{
+		layer.sprites.Clear();
+		
         for (int x = 0; x < grid.width; x++)
         {
             for (int y = 0; y < grid.height; y++)
@@ -55,6 +57,7 @@ public class ArtereLayer : MonoBehaviour
                 }
             }
         }
+		
         layer.buildMesh();
 	}
 }

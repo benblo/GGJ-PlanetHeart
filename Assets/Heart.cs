@@ -8,7 +8,7 @@ public class Heart
 
     public int heartConsumed;
 
-    public int heartForLevel = 15;
+    public int heartForLevel = 5;
     public int heartLevel;
 
     public float globuleSpawnMinDelay = 3;
@@ -24,7 +24,7 @@ public class Heart
 
         heartLevel = 0;
 
-        globuleToSpawn = 5;
+        globuleToSpawn = 10;
         globuleSpawnNextTime = Time.time + Random.Range(globuleSpawnMinDelay, globuleSpawnMaxDelay);
 
         SetupLevel1();
